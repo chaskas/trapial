@@ -1,0 +1,19 @@
+# config/doctrine/schema.yml
+---
+TrapialPhoto:
+  actAs: { Timestampable: ~ }
+  columns:
+    photo_id:     { type: integer, notnull: true }
+    upload_at:    { type: timestamp, notnull: true }
+    name:         { type: string(255), notnull: true, unique: true }
+    path:         { type: string(255), notnull: true, unique: true }
+    album_id:     {}
+
+TrapialAlbum:
+  actAs: { Timestampable: ~ }
+  columns:
+    album_id:     { type: integer, notnull: true }
+    created_at:   { type: timestamp, notnull: true }
+    name:         { type: string(255), notnull: true, unique: true }
+    path:         { type: string(255), notnull: true, unique: true }
+    description:  { type: string(4000), notnull: false }
