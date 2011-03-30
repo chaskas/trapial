@@ -79,7 +79,7 @@
         </div>
         <div id="footer-menu">
           <div id="footer"></div>
-          <div id="copyright">Developed &amp; Designed - Rodrigo Campos H.<br/><a href="http://validator.w3.org/check/referer" target="_blank" class="copyright">W3C</a></div>
+          <div id="copyright">Dise&ntilde;o &amp; Desarrollo - Rodrigo Campos H.<br/><a href="http://validator.w3.org/check/referer" target="_blank" class="copyright">W3C</a></div>
         </div>
       </div>
     </div>
