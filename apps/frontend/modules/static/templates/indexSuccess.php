@@ -1,3 +1,7 @@
+<script type="text/javascript">
+        Cufon.replace('#NewsTitle'); // Works without a selector engine
+</script>
+
 <div id="indexContent">
   <div id="leftSide">
     <div id="slider-wrapper">
@@ -13,5 +17,8 @@
     </div>
   </div>
   <div id="sideBar">
+    <p id="NewsTitle">Noticias:</p>
   </div>
 </div>
+
+<script type="text/javascript"> Cufon.now(); </script>

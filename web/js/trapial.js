@@ -3,3 +3,4 @@ $(document).ready(function(){
     $("#right-bg2").height($("#center-bg").height() -679);
     $("#sideBar").height($("#center-bg").height());
 });
+
