@@ -75,7 +75,8 @@ html, body {
   clear: both;
 }
 #center-bg {
-    background-color: #EFFBE3;
+    background: url(../images/center-bg-top.jpg) #EFFBE3 repeat-x top;
+    /*background: url(../images/center-bg-top.jpg) #FFFFFF repeat-x top;*/
     float: left;
     min-height: 679px;
     width: 903px;

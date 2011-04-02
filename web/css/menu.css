@@ -4,6 +4,7 @@
   margin: 0 0 0 -451px;
   left: 50%;
   position: absolute;
+  z-index: 99999;
 }
 
 ul {

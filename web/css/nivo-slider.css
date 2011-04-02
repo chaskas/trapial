@@ -91,19 +91,18 @@
 /* AGREGADO POR RODRIGO CAMPOS H. */
 
 #slider-wrapper {
-    background:url(../images/slider/slider2.png) no-repeat;
-    width:640px;
-    height:270px;
-    margin:0 auto;
-    padding-top:74px;
-    margin-top:50px;
+    background:url(../images/slider/wrapper.png) no-repeat;
+    width:709px;
+    height:298px;
+    padding:15px;
+    margin-top:1px;
 }
 
 #slider {
   position:relative;
-  width:618px;
-  height:246px;
-  margin-left:15px;
+  width:679px;
+  height:269px;
+  /*margin-left:15px;*/
   background:url(../images/slider/loading.gif) no-repeat 50% 50%;
 }
 #slider img {
@@ -119,7 +118,7 @@
 
 .nivo-controlNav {
   position:absolute;
-  left:260px;
+  right:0px;
   bottom:-42px;
 }
 .nivo-controlNav a {
