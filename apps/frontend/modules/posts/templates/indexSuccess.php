@@ -16,7 +16,7 @@
     <?php foreach ($trapial_postss as $trapial_posts): ?>
     <tr>
       <td><a href="<?php echo url_for('posts/show?id='.$trapial_posts->getId()) ?>"><?php echo $trapial_posts->getId() ?></a></td>
-      <td><?php echo $trapial_posts->getPostAuthor() ?></td>
+      <td><?php echo $trapial_posts->getPostAuthorId() ?></td>
       <td><?php echo $trapial_posts->getPostContent() ?></td>
       <td><?php echo $trapial_posts->getPostTitle() ?></td>
       <td><?php echo $trapial_posts->getCommentCount() ?></td>

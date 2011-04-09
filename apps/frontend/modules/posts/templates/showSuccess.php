@@ -6,7 +6,7 @@
     </tr>
     <tr>
       <th>Post author:</th>
-      <td><?php echo $trapial_posts->getPostAuthor() ?></td>
+      <td><?php echo $trapial_posts->getPostAuthorId() ?></td>
     </tr>
     <tr>
       <th>Post content:</th>
