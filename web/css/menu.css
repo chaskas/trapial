@@ -20,13 +20,17 @@ a {
 /*p {
   padding:10px 5px;
 }*/
-
+.menu-spacer {
+  height: 47px;
+}
 .subtext {
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-  font-size: 10pt;
-  padding-top: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 10px;
   color: #FFFFFF;
-  height: 50%;
+  text-align: left;
 }
 #facebook {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
@@ -34,6 +38,7 @@ a {
   color: #FFFFFF;
   text-align: right;
   vertical-align: bottom;
+  padding-top: 95%;
 }
 
 /*Menu Color Classes*/

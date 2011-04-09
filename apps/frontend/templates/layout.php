@@ -32,12 +32,12 @@
           <div id="menu">
             <ul>
               <li class="green">
-                <p><a href=""></a></p>
-                <p class="subtext"></p>
+                <p class="menu-spacer"></p>
+                <p class="subtext"><a href="<?php echo url_for('@homepage') ?>" class="subtext">- Homepage</a></p>
               </li>
               <li class="yellow">
-                <p><a href=""></a></p>
-                <p class="subtext"></p>
+                <p class="menu-spacer"></p>
+                <p class="subtext"><a href="<?php echo url_for('posts/index') ?>" class="subtext">- Noticias</a></p>
               </li>
               <li class="red">
                 <p><a href=""></a></p>
