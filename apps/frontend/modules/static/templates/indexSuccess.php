@@ -21,21 +21,21 @@
     <div id="random-photo-wrapper"></div>
   </div>
   <div id="sideBar">
-    <div id="News1">
-      <p id="News">Noticias:</p>
-      <p class="NewsTitle">Titulo de la Noticia</p>
-      <p class="NewsContent">
+    <div id="sidebar-News1">
+      <p id="sidebar-News">Noticias:</p>
+      <p class="sidebar-NewsTitle">Titulo de la Noticia</p>
+      <p class="sidebar-NewsContent">
         Se sub arriendan oficinas en COCHRANE 890. Ojalá para profesionales área de salud para complementar servicios a la comunidad.
       </p>
-      <p class="NewsReadMore"><a href="#" class="NewsReadMore">Leer M&aacute;s</a></p>
+      <p class="sidebar-NewsReadMore"><a href="#" class="sidebar-NewsReadMore">Leer M&aacute;s</a></p>
     </div>
     
-    <div id="News2">
-      <p class="NewsTitle">Delantales y Buzos</p>
-      <p class="NewsContent">
+    <div id="sidebar-News2">
+      <p class="sidebar-NewsTitle">Delantales y Buzos</p>
+      <p class="sidebar-NewsContent">
       Los delantales y buzos para el Jardín se encargan en BARROS ARANA 514, LOCAL 7, FONO 2251611, Galería Catedral, Concepción.
       </p>
-      <p class="NewsReadMore"><a href="#" class="NewsReadMore">Leer M&aacute;s</a></p>
+      <p class="sidebar-NewsReadMore"><a href="#" class="sidebar-NewsReadMore">Leer M&aacute;s</a></p>
     </div>
   </div>
 </div>

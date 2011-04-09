@@ -152,36 +152,37 @@ a.copyright {
   float: left;
   background: #c5fd80;
 }
-#News {
+#sidebar-News {
   color: #3c4144;
   font-family: sans-serif;
   font-size: 24px;
   font-weight: bold;
   padding-left: 15px;
 }
-.NewsTitle {
+.sidebar-NewsTitle {
   color: #3c4144;
   font-family: "Courier New", Courier, monospace;
   font-size: 14px;
   padding-left: 15px;
+  padding:10px 5px;
   width: 85%;
   font-weight: bold;
 }
-.NewsContent {
+.sidebar-NewsContent {
   color: #3c4144;
   font-family: sans-serif;
   font-size: 11px;
   padding-left: 15px;
   width: 85%;
 }
-.NewsReadMore {
+.sidebar-NewsReadMore {
   color: #3c4144;
   font-family: sans-serif;
   font-size: 10px;
   text-align: right;
   width: 85%;
 }
-a.NewsReadMore {
+a.sidebar-NewsReadMore {
   color: #3c4144;
   font-family: sans-serif;
   font-size: 9px;
@@ -215,4 +216,63 @@ a.NewsReadMore {
   background: #7552ca;
   height: 150px;
   clear: both;
+}
+#NewsWrapper {
+  width: 843px;
+  min-height: 100px;
+  background: #c5fd80;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#NewsWrapper:hover {
+  background: #FFFFFF;
+}
+.NewsTitle {
+  color: #3c4144;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+}
+h1.News {
+  color: #3c4144;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.NewsAuthor {
+  color: #777777;
+  font-size: 11px;
+  font-family: arial,sans-serif;
+}
+.NewsDate {
+  color: #777777;
+  font-size: 11px;
+  font-family: arial,sans-serif;
+  margin: 1px 1px;
+  text-align: right;
+  padding-bottom: 15px;
+}
+.NewsContent {
+  color: #3c4144;
+  font-family: sans-serif;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+.NewsSeeComments {
+  color: #777777;
+  font-size: 12px;
+  font-family: arial,sans-serif;
+  text-align: right;
+}
+.NewsAddNew {
+  color: #777777;
+  font-size: 12px;
+  font-family: arial,sans-serif;
+  text-align: right;
+  padding-right: 10px;
 }

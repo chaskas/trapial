@@ -3,10 +3,10 @@ TrapialPosts:
   noticiaA:
     sfGuardUser:   User_admin
     post_title:    Probando Noticia 1
-    post_content:  test contenido noticia 1
+    post_content:  Se sub arriendan oficinas en COCHRANE 890. Ojalá para profesionales área de salud para complementar servicios a la comunidad.
     comment_count:  0      
   noticiaB:
     sfGuardUser:   User_admin
-    post_title:    Probando Noticia 2
-    post_content:  test contenido noticia 2
+    post_title:    Delantales y Buzos
+    post_content:  Los delantales y buzos para el Jardín se encargan en BARROS ARANA 514, LOCAL 7, FONO 2251611, Galería Catedral, Concepción.
     comment_count:  0      
