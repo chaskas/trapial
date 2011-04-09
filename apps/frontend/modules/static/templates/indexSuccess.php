@@ -1,5 +1,5 @@
 <script type="text/javascript">
-        Cufon.replace('#NewsTitle'); // Works without a selector engine
+        Cufon.replace('#News'); // Works without a selector engine
 </script>
 
 <div id="indexContent">
@@ -15,9 +15,28 @@
             <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
         </div>
     </div>
+    <div id="banner-green-wrapper"></div>
+    <div id="banner-red-wrapper"></div>
+    <div id="banner-purple-wrapper"></div>
+    <div id="random-photo-wrapper"></div>
   </div>
   <div id="sideBar">
-    <p id="NewsTitle">Noticias:</p>
+    <div id="News1">
+      <p id="News">Noticias:</p>
+      <p class="NewsTitle">Titulo de la Noticia</p>
+      <p class="NewsContent">
+        Se sub arriendan oficinas en COCHRANE 890. Ojalá para profesionales área de salud para complementar servicios a la comunidad.
+      </p>
+      <p class="NewsReadMore"><a href="#" class="NewsReadMore">Leer M&aacute;s</a></p>
+    </div>
+    
+    <div id="News2">
+      <p class="NewsTitle">Delantales y Buzos</p>
+      <p class="NewsContent">
+      Los delantales y buzos para el Jardín se encargan en BARROS ARANA 514, LOCAL 7, FONO 2251611, Galería Catedral, Concepción.
+      </p>
+      <p class="NewsReadMore"><a href="#" class="NewsReadMore">Leer M&aacute;s</a></p>
+    </div>
   </div>
 </div>
 

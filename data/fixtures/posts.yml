@@ -1,0 +1,12 @@
+#data/fixtures/posts.yml
+TrapialPosts:
+  noticiaA:
+    post_author:   1
+    post_title:    Probando Noticia 1
+    post_content:  test contenido noticia 1
+    comment_count:  0      
+  noticiaB:
+    post_author:   2
+    post_title:    Probando Noticia 2
+    post_content:  test contenido noticia 2
+    comment_count:  0      
