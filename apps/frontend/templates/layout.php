@@ -31,23 +31,23 @@
         <div id="menu-bg">
           <div id="menu">
             <ul>
-              <li class="green">
+              <li id="green" class="menu-aux-class">
                 <p class="menu-spacer"></p>
                 <p class="subtext"><a href="<?php echo url_for('@homepage') ?>" class="subtext">- Homepage</a></p>
               </li>
-              <li class="yellow">
+              <li id="yellow" class="menu-aux-class">
                 <p class="menu-spacer"></p>
                 <p class="subtext"><a href="<?php echo url_for('posts/index') ?>" class="subtext">- Noticias</a></p>
               </li>
-              <li class="red">
+              <li id="red" class="menu-aux-class">
                 <p><a href=""></a></p>
                 <p class="subtext"></p>
               </li>
-              <li class="blue">
+              <li id="blue" class="menu-aux-class">
                 <p><a href=""></a></p>
                 <p class="subtext"></p>
               </li>
-              <li class="purple">
+              <li id="purple" class="menu-aux-class">
                 <p><a href=""></a></p>
                 <p class="subtext"></p>
                 <p id="facebook"><?php echo link_to(image_tag('facebook-icon-48x48.png',array('alt' => 'Encuentranos en Facebook', 'size' => '24x24','border'=> '0')),'http://www.facebook.com/mundo.cantaclaro',array('target'=>'_blank')); ?></p>
@@ -63,7 +63,16 @@
           </div>
           
           <div id="center-bg">
-              <?php echo $sf_content; ?>
+            <?php if ($sf_user->isAuthenticated()): ?>
+            <div id="login-status-wrapper">
+              <p id="logged_user">
+                <span class="inner">
+                  Bienvenido <?php echo $sf_user->getUsername(); ?> | <?php echo link_to('Salir','@sf_guard_signout') ?>
+                </span>
+              </p>
+            </div>
+            <?php endif; ?>
+            <?php echo $sf_content; ?>
           </div>
 
           <div id="right">

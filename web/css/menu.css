@@ -42,7 +42,7 @@ a {
 }
 
 /*Menu Color Classes*/
-.green{
+#green{
   float: left;
   color:      #191919;
   text-align: center;
@@ -51,7 +51,7 @@ a {
   height:     41px;
   background: url('../images/menu/Green.jpg') top left no-repeat;
 }
-.yellow{
+#yellow{
   float: left;
   color:      #191919;
   text-align: center;
@@ -60,7 +60,7 @@ a {
   height:     41px;
   background: url('../images/menu/Yellow.jpg') top left no-repeat;
 }
-.red{
+#red{
   float: left;
   color:      #191919;
   text-align: center;
@@ -69,7 +69,7 @@ a {
   height:     41px;
   background: url('../images/menu/Red.jpg') top left no-repeat;
 }
-.purple{
+#purple{
   float: left;
   color:      #191919;
   text-align: left;
@@ -78,7 +78,7 @@ a {
   height:     41px;
   background: url('../images/menu/Purple.jpg') top left no-repeat;
 }
-.blue{
+#blue{
   float: left;
   color:      #191919;
   text-align: center;

@@ -280,3 +280,22 @@ h1.News {
   text-align: right;
   padding-right: 10px;
 }
+#login-status-wrapper {
+  width: 843px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #7552ca;
+  
+}
+#login-wrapper {
+  width: 843px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #7552ca;
+
+}
+.inner {
+  color: #FFFFFF;
+  font-size: 13px;
+  text-align: right;
+}
