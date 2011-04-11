@@ -227,7 +227,7 @@ a.sidebar-NewsReadMore {
   margin-bottom: 10px;
 }
 #NewsWrapper:hover {
-  background: #FFFFFF;
+  background: #c5fd30;
 }
 .NewsTitle {
   color: #3c4144;
@@ -298,4 +298,35 @@ h1.News {
   color: #FFFFFF;
   font-size: 13px;
   text-align: right;
+}
+.login-form-title {
+  color: #FFFFFF;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  float: left;
+}
+.login-form-user {
+  color: #FFFFFF;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 20px 0 20px;
+}
+#login-error {
+  width: 843px;
+  margin: 10px auto;
+  background: #ca6b52;
+  position: absolute;
+}
+.login-form-error {
+  color: #FFFFFF;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+.form-login-submit{
+  margin: 0 auto;
 }

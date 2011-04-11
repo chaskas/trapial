@@ -21,6 +21,6 @@ class sfGuardFormSignin extends BasesfGuardFormSignin
       'remember' => 'Recordarme',
     ));
 
-    $this->widgetSchema->setFormFormatterName('list');
+//    $this->widgetSchema->setFormFormatterName('list');
   }
 }
