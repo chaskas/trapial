@@ -63,15 +63,6 @@
           </div>
           
           <div id="center-bg">
-            <?php if ($sf_user->isAuthenticated()): ?>
-            <div id="login-status-wrapper">
-              <p id="logged_user">
-                <span class="inner">
-                  Bienvenido <?php echo $sf_user->getUsername(); ?> | <?php echo link_to('Salir','@sf_guard_signout') ?>
-                </span>
-              </p>
-            </div>
-            <?php endif; ?>
             <?php echo $sf_content; ?>
           </div>
 

@@ -1,5 +1,5 @@
 <script type="text/javascript">
-        Cufon.replace('#News'); // Works without a selector engine
+        Cufon.replace('#sidebar-News'); // Works without a selector engine
 </script>
 
 <div id="indexContent">

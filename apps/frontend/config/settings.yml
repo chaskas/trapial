@@ -24,6 +24,10 @@ test:
 
 all:
   .settings:
+    #locales
+    il18n: true
+    charset: utf-8
+    default_culture: es_ES
     # Form security secret (CSRF protection)
     csrf_secret:            b56302a29d752c24ab96d63a195e4f7e4af8b63c
 
