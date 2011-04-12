@@ -22,6 +22,7 @@
  * @property sfGuardRememberKey $RememberKeys
  * @property sfGuardForgotPassword $ForgotPassword
  * @property Doctrine_Collection $AuthorId
+ * @property sfGuardUserProfile $Profile
  * 
  * @method string                getFirstName()             Returns the current record's "first_name" value
  * @method string                getLastName()              Returns the current record's "last_name" value
@@ -40,6 +41,7 @@
  * @method sfGuardRememberKey    getRememberKeys()          Returns the current record's "RememberKeys" value
  * @method sfGuardForgotPassword getForgotPassword()        Returns the current record's "ForgotPassword" value
  * @method Doctrine_Collection   getAuthorId()              Returns the current record's "AuthorId" collection
+ * @method sfGuardUserProfile    getProfile()               Returns the current record's "Profile" value
  * @method sfGuardUser           setFirstName()             Sets the current record's "first_name" value
  * @method sfGuardUser           setLastName()              Sets the current record's "last_name" value
  * @method sfGuardUser           setEmailAddress()          Sets the current record's "email_address" value
@@ -57,10 +59,11 @@
  * @method sfGuardUser           setRememberKeys()          Sets the current record's "RememberKeys" value
  * @method sfGuardUser           setForgotPassword()        Sets the current record's "ForgotPassword" value
  * @method sfGuardUser           setAuthorId()              Sets the current record's "AuthorId" collection
+ * @method sfGuardUser           setProfile()               Sets the current record's "Profile" value
  * 
  * @package    trapial
  * @subpackage model
- * @author     Your name here
+ * @author     Rodrigo Campos H.
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 abstract class BasesfGuardUser extends sfDoctrineRecord
@@ -155,6 +158,10 @@ abstract class BasesfGuardUser extends sfDoctrineRecord
         $this->hasMany('TrapialPosts as AuthorId', array(
              'local' => 'id',
              'foreign' => 'post_author_id'));
+
+        $this->hasOne('sfGuardUserProfile as Profile', array(
+             'local' => 'id',
+             'foreign' => 'user_id'));
 
         $timestampable0 = new Doctrine_Template_Timestampable(array(
              ));

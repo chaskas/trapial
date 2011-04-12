@@ -6,10 +6,6 @@
 <?php echo $form['username']->render(array('class'=>'login-username-input')); ?>
 <?php echo "<span class=\"login-form-user\">".$form['password']->renderLabel()."</span>"; ?>
 <?php echo $form['password']->render(array('class'=>'login-password-input')); ?>
-<div id="login-error">
-  <?php echo "<span class=\"login-form-error\">".$form['username']->renderError()."</span>"; ?>
-  <?php echo "<span class=\"login-form-error\">".$form['password']->renderError()."</span>"; ?>
-</div>
 <?php echo $form->renderHiddenFields(); ?>
 
 

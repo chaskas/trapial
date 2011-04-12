@@ -22,3 +22,4 @@ TrapialComments:
   relations:
     TrapialPosts:         { onDelete: CASCADE, local: comment_post_id, foreign: id, foreignAlias: Comments }
     #Falta poner columna para user_id, que correspondera a la tabla de usuarios cuando implente sfGuards.
+

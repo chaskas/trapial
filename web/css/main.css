@@ -150,7 +150,7 @@ a.copyright {
   width: 194px;
   height: inherit;
   float: left;
-  background: #c5fd80;
+  background: #aafd78;
 }
 #sidebar-News {
   color: #3c4144;
@@ -282,15 +282,15 @@ h1.News {
 }
 #login-status-wrapper {
   width: 843px;
-  margin: 20px auto;
-  padding: 10px;
-  background: #7552ca;
+  /*margin: 20px auto;*/
+  padding: 5px;
+  /*background: #7552ca;*/
   height: 16px;
   vertical-align: middle;
 }
 #login-wrapper {
-  width: 843px;
-  margin: 20px auto;
+  width: 903px;
+  margin: 0 auto;
   padding: 10px;
   background: #7552ca;
   height: 24px;
@@ -319,8 +319,8 @@ h1.News {
   margin: 0 20px 0 20px;
 }
 #login-error {
-  width: 843px;
-  margin: 10px auto;
+  width: 903px;
+  margin: 0 auto;
   background: #ca6b52;
   position: absolute;
 }
@@ -338,7 +338,7 @@ h1.News {
   font-size: 13px;
   color: #000000;
   height: 22px;
-  width: 100px;
+  width: 120px;
   border: 1px #000000 solid;
 }
 .login-username-input {
@@ -348,7 +348,7 @@ h1.News {
   font-size: 13px;
   color: #000000;
   height: 20px;
-  width: 190px;
+  width: 200px;
   border: 1px #000000 solid;
 }
 .login-password-input {
@@ -358,6 +358,22 @@ h1.News {
   font-size: 13px;
   color: #000000;
   height: 20px;
-  width: 190px;
+  width: 200px;
   border: 1px #000000 solid;
+}
+#login-box {
+  width: 903px;
+  margin: 0px auto;
+  padding: 10px;
+  background: #7552ca;
+  height: 24px;
+  vertical-align: middle;
+  display: none;
+}
+#login-button {
+  width: 10px;
+  height: 47px;
+  left: 50%;
+  margin: 0 0 0 451px;
+  position: relative;
 }

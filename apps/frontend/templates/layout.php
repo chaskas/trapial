@@ -1,3 +1,4 @@
+<?php use_helper('I18N') ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
@@ -54,6 +55,8 @@
               </li>
             </ul>
           </div>
+          <div id="login-button">
+          </div>
         </div>
         <div id="content-bg">
 
@@ -63,6 +66,20 @@
           </div>
           
           <div id="center-bg">
+            <div id="login-box">
+              <?php if ($sf_user->isAuthenticated()): ?>
+                <div id="login-status-wrapper">
+                  <p id="logged_user">
+                    <span class="inner">
+                      Bienvenido <?php echo $sf_user->getGuardUser()->getFirstName()." ".$sf_user->getGuardUser()->getLastName(); ?> | <?php echo link_to('Salir','@sf_guard_signout') ?>
+                    </span>
+                  </p>
+                </div>
+              <?php else: ?>
+                <h1 class="login-form-title"><?php echo __('Inicie Sesi&oacute;n', null, 'sf_guard') ?></h1>
+                <?php include_component('sfGuardAuth', 'signin_form'); ?>
+              <?php endif; ?>
+            </div>
             <?php echo $sf_content; ?>
           </div>
 
