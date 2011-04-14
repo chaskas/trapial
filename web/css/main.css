@@ -338,8 +338,9 @@ h1.News {
   font-size: 13px;
   color: #000000;
   height: 22px;
-  width: 120px;
+  width: 100px;
   border: 1px #000000 solid;
+  margin-left: 15px;
 }
 .login-username-input {
   background: #FFFFFF;

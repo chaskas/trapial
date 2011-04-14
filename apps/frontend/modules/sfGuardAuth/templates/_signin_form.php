@@ -6,11 +6,8 @@
 <?php echo $form['username']->render(array('class'=>'login-username-input')); ?>
 <?php echo "<span class=\"login-form-user\">".$form['password']->renderLabel()."</span>"; ?>
 <?php echo $form['password']->render(array('class'=>'login-password-input')); ?>
-<?php echo $form->renderHiddenFields(); ?>
-
-
-
 <input type="submit" value="<?php echo __('Login', null, 'sf_guard') ?>" class="form-login-submit"/>
+<?php echo $form->renderHiddenFields(); ?>
 
 <?php $routes = $sf_context->getRouting()->getRoutes() ?>
 <?php if (isset($routes['sf_guard_forgot_password'])): ?>
