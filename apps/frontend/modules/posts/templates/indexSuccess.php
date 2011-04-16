@@ -1,6 +1,8 @@
 <?php use_helper('Date'); ?>
 <h1 class="News">Noticias Mundo Cantaclaro</h1>
+<?php if ($sf_user->isAuthenticated()): ?>
 <p class="NewsAddNew"><a href="<?php echo url_for('posts/new') ?>"  class="NewsAddNew">Publicar nueva noticia</a></p>
+<?php endif; ?>
 
 <?php foreach ($trapial_postss as $trapial_posts): ?>
   <div id="NewsWrapper">
