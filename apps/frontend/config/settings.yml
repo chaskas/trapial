@@ -28,6 +28,9 @@ all:
     il18n: true
     charset: utf-8
     default_culture: es_ES
+
+    rich_text_js_dir:  js/tiny_mce
+
     # Form security secret (CSRF protection)
     csrf_secret:            b56302a29d752c24ab96d63a195e4f7e4af8b63c
 

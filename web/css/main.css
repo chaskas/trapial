@@ -302,14 +302,16 @@ h1.News {
   font-weight: bold;
   float: left;
 }
-.NewsCompleteContent {
-  color: #3c4144;
-  font-family: sans-serif;
-  font-size: 13px;
+
+#NewsCompleteContent-wrapper {
   margin-top: 50px;
   padding: 20px;
   background: #f4fa77;
   clear: both;
+  width: 783px;
+}
+#NewsCompleteContent {
+  padding: 0 20px 0 ;
 }
 #NewsCompleteLinks-wrapper {
   background: #f4fa77;
