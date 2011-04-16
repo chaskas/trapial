@@ -12,5 +12,9 @@ class TrapialPostsForm extends BaseTrapialPostsForm
 {
   public function configure()
   {
+    $this->widgetSchema['created_at']= new sfWidgetFormJQueryDate(array('config' => '{showOn: "button",buttonImage: "/images/calendar.png",buttonImageOnly: true}','culture'=>'es'));
+    $this->widgetSchema['created_at']->getOption('date_widget')->setOption('format', '%day%%month%%year%');
+    $this->widgetSchema['updated_at']= new sfWidgetFormJQueryDate(array('config' => '{showOn: "button",buttonImage: "/images/calendar.png",buttonImageOnly: true}','culture'=>'es'));
+    $this->widgetSchema['updated_at']->getOption('date_widget')->setOption('format', '%day%%month%%year%');
   }
 }

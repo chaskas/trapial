@@ -12,9 +12,9 @@ default:
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [main.css,menu.css,nivo-slider.css]
+  stylesheets:    [main.css,menu.css,nivo-slider.css,redmond/jquery-ui-1.8.11.custom.css]
 
-  javascripts:    [jquery-1.5.1.js,jquery.easing.1.3.js,menu.js,jquery.nivo.slider.js,slider.js,jquery.nivo.slider.pack.js,trapial.js,cufon-yui.js,A_Safe_Place_to_Fall_400.font.js]
+  javascripts:    [jquery-1.5.1.js,jquery-1.5.1.min.js,jquery-ui-1.8.11.custom.min.js,jquery.ui.datepicker-es.js,jquery.easing.1.3.js,menu.js,trapial.js,cufon-yui.js,A_Safe_Place_to_Fall_400.font.js,jquery.nivo.slider.js,slider.js,jquery.nivo.slider.pack.js]
 
   has_layout:     true
   layout:         layout
