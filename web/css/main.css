@@ -1,39 +1,41 @@
 * {
-  margin: 0px;
+/*  margin: 0px;
   padding: 0px;
   outline: 0px;
-  border: none;
+  border: none;*/
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    background-image: url(../images/bg-color.jpg);
-    background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-image: url(../images/bg-color.jpg);
+  background-repeat: repeat;
+  font-size: 11px;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
 }
 #con-pos {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 
 }
 #container {
-	width: 1440px;
-	position: absolute;
-	margin-left: -720px;
-	left: 50%;
-	top: 0;
-	overflow: auto;
+  width: 1440px;
+  position: absolute;
+  margin-left: -720px;
+  left: 50%;
+  top: 0;
+  overflow: auto;
 }
 #top-bg {
-    background-image: url(../images/top-bg.jpg);
-    background-repeat: no-repeat;
-    height: 168px;
-    margin: 0 auto;
+  background-image: url(../images/top-bg.jpg);
+  background-repeat: no-repeat;
+  height: 168px;
+  margin: 0 auto;
 }
 #header {
   background-image: url(../images/header.png);
@@ -48,9 +50,9 @@ html, body {
   margin: 0 auto;
 }
 #content-bg {
-    background-image: url(../images/content-bg.jpg);
-    background-repeat: repeat-y;
-    width: 1440px;
+  background-image: url(../images/content-bg.jpg);
+  background-repeat: repeat-y;
+  width: 1440px;
 }
 #left {
   float: left;
@@ -61,11 +63,11 @@ html, body {
   height: 100%;
 }
 #left-bg {
-    background-image: url(../images/left-bg.jpg);
-    background-repeat: no-repeat;
-    float: left;
-    min-height: 679px;
-    width: 271px;
+  background-image: url(../images/left-bg.jpg);
+  background-repeat: no-repeat;
+  float: left;
+  min-height: 679px;
+  width: 271px;
 }
 #left-bg2 {
   background-image: url(../images/left-bg2.jpg);
@@ -75,18 +77,18 @@ html, body {
   clear: both;
 }
 #center-bg {
-    /*background: url(../images/center-bg-top.jpg) #EFFBE3 repeat-x top;*/
-    background: url(../images/center-bg-top.jpg) #FFFFFF repeat-x top;
-    float: left;
-    min-height: 679px;
-    width: 903px;
+  /*background: url(../images/center-bg-top.jpg) #EFFBE3 repeat-x top;*/
+  background: url(../images/center-bg-top.jpg) #FFFFFF repeat-x top;
+  float: left;
+  min-height: 679px;
+  width: 903px;
 }
 #right-bg {
-    background-image: url(../images/right-bg.jpg);
-    background-repeat: no-repeat;
-    float: right;
-    min-height: 679px;
-    width: 266px;
+  background-image: url(../images/right-bg.jpg);
+  background-repeat: no-repeat;
+  float: right;
+  min-height: 679px;
+  width: 266px;
 }
 #right-bg2 {
   background-image: url(../images/right-bg2.jpg);
@@ -99,32 +101,32 @@ html, body {
 
 }
 #left-bottom-bg {
-    float: left;
-    width: 208px;
-    height: 27px;
+  float: left;
+  width: 208px;
+  height: 27px;
 }
 #center-bottom-bg {
-    background-image: url(../images/content-bottom2.jpg);
-    background-repeat: no-repeat;
-    float: left;
-    height: 29px;
-    width: 1440px;
-    text-align: center;
+  background-image: url(../images/content-bottom2.jpg);
+  background-repeat: no-repeat;
+  float: left;
+  height: 29px;
+  width: 1440px;
+  text-align: center;
 }
 #right-bottom-bg {
-    float: left;
-    width: 266px;
-    height: 27px;
+  float: left;
+  width: 266px;
+  height: 27px;
 }
 #footer-menu {
-    clear: both;
-    background-image: url(../images/footer.png);
-    background-position: center;
-    height: 523px;
-    width: 1025px;
-    margin-left: -512px;
-    left: 50%;
-    position: relative;
+  clear: both;
+  background-image: url(../images/footer.png);
+  background-position: center;
+  height: 523px;
+  width: 1025px;
+  margin-left: -512px;
+  left: 50%;
+  position: relative;
 }
 #footer {
   height: 95%;
@@ -158,6 +160,7 @@ a.copyright {
   font-size: 24px;
   font-weight: bold;
   padding-left: 15px;
+  margin: 0;
 }
 .sidebar-NewsTitle {
   color: #3c4144;
@@ -167,6 +170,7 @@ a.copyright {
   padding:10px 5px;
   width: 85%;
   font-weight: bold;
+  margin: 0;
 }
 .sidebar-NewsContent {
   color: #3c4144;
@@ -174,6 +178,7 @@ a.copyright {
   font-size: 11px;
   padding-left: 15px;
   width: 85%;
+  margin: 0;
 }
 .sidebar-NewsReadMore {
   color: #3c4144;
@@ -235,6 +240,7 @@ a.sidebar-NewsReadMore {
   font-size: 16px;
   font-weight: bold;
   float: left;
+  margin: 0px;
 }
 h1.News {
   color: #3c4144;
@@ -265,6 +271,7 @@ h1.News {
   font-size: 12px;
   padding-top: 15px;
   padding-bottom: 15px;
+  text-align: justify;
   clear: both;
 }
 .NewsSeeComments {
@@ -290,11 +297,7 @@ h1.News {
   padding: 20px;
   position: relative;
 }
-#NewsCompleteContent-wrapper {
-  width: 100%;
-  height: 100%;
-  background: #f4fa77;
-}
+
 .NewsCompleteTitle {
   color: #3c4144;
   font-family: "Courier New", Courier, monospace;
@@ -305,6 +308,7 @@ h1.News {
 
 #NewsCompleteContent-wrapper {
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 20px;
   background: #f4fa77;
   clear: both;
@@ -316,7 +320,7 @@ h1.News {
 #NewsCompleteLinks-wrapper {
   background: #f4fa77;
   height: 35px;
-  margin-top: 20px;
+  margin-top: 30px;
   width: 823px;
   bottom: 20px;
   position: absolute;
@@ -326,7 +330,7 @@ h1.News {
   font-family: "Courier New", Courier, monospace;
   font-size: 12px;
   font-weight: bold;
-  padding: 5px;
+  padding-right: 5px;
   float: right;
 }
 .NewsCompleteBack {
@@ -334,7 +338,7 @@ h1.News {
   font-family: "Courier New", Courier, monospace;
   font-size: 12px;
   font-weight: bold;
-  padding: 5px;
+  padding-left: 5px;
   float: left;
 }
 #login-status-wrapper {
