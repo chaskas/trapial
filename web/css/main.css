@@ -473,11 +473,10 @@ p.NewsReadMore {
   display: none;
 }
 #login-button {
-  width: 10px;
-  height: 47px;
-  left: 50%;
-  margin: 0 0 0 451px;
-  position: relative;
+  width: 41px;
+  height: 41px;
+  float: right;
+  background: url(/images/login.png) top right no-repeat;
 }
 .post-title-input {
   background: #FFFFFF;
@@ -485,7 +484,4 @@ p.NewsReadMore {
   color: #000000;
   height: 20px;
   border: 1px #CCCCCC solid;
-}
-.post-title {
-
 }
