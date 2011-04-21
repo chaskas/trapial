@@ -24,6 +24,10 @@
   <body>
     <div id="con-pos">
       <div id="container">
+        <div id="demo">
+          <p class="demo">Mundo Cantaclaro est&aacute; en estapa de construcción. Si desea hacer pruebas puede probar con el usuario habilitado para esto</p>
+          <p class="demo">Usuario: <b>test</b> Password: <b>test</b></p>
+        </div>
         <div id="top-bg">
           <div id="header"></div>
         </div>

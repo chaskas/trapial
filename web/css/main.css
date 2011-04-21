@@ -485,3 +485,10 @@ p.NewsReadMore {
   height: 20px;
   border: 1px #CCCCCC solid;
 }
+#demo {
+  text-align: center;
+  background: darksalmon;
+}
+.demo {
+  margin: 0;
+}
