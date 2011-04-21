@@ -243,7 +243,7 @@ a.sidebar-NewsReadMore {
   float: left;
   margin: 0px;
 }
-h1.News {
+p.News {
   color: #3c4144;
   font-family: "Courier New", Courier, monospace;
   font-size: 26px;
@@ -251,6 +251,13 @@ h1.News {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+}
+span.News {
+  color: #3c4144;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 20px;
 }
 .NewsAuthor {
   color: #777777;
@@ -341,6 +348,25 @@ p.NewsReadMore {
   bottom: 20px;
   position: absolute;
 }
+.NewsEditSubmit {
+  background: #FFFFFF;
+  width: 100px;
+  height: 24px;
+  border: 1px #777777 solid;
+  color: #3c4144;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  font-weight: bold;
+}
+.NewsCompleteEditButton {
+  color: #3c4144;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 6px 0;
+  padding-right: 5px;
+  float: right;
+}
 .NewsCompleteEdit {
   color: #3c4144;
   font-family: "Courier New", Courier, monospace;
@@ -359,7 +385,7 @@ p.NewsReadMore {
 }
 #login-status-wrapper {
   width: 843px;
-  padding: 5px;
+/*  padding: 5px;*/
   height: 16px;
   vertical-align: middle;
 }
@@ -383,7 +409,7 @@ p.NewsReadMore {
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   font-weight: bold;
-  margin-right: 20px;
+  margin:  0 20px;
   float: left;
 }
 .login-form-user {
@@ -438,9 +464,9 @@ p.NewsReadMore {
   border: 1px #000000 solid;
 }
 #login-box {
-  width: 903px;
+/*  width: 903px;*/
   margin: 0px auto;
-  padding: 10px;
+  padding: 10px 0;
   background: #7552ca;
   height: 24px;
   vertical-align: middle;
@@ -452,4 +478,14 @@ p.NewsReadMore {
   left: 50%;
   margin: 0 0 0 451px;
   position: relative;
+}
+.post-title-input {
+  background: #FFFFFF;
+  font-size: 13px;
+  color: #000000;
+  height: 20px;
+  border: 1px #CCCCCC solid;
+}
+.post-title {
+
 }

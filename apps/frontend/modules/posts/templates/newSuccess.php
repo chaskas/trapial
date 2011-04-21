@@ -1,3 +1,3 @@
-<h1>New Trapial posts</h1>
+<p  class="News">Nueva Noticia</p>
 
 <?php include_partial('form', array('form' => $form)) ?>

@@ -1,18 +1,14 @@
 # config/doctrine/schema.yml
 ---
 TrapialPosts:
-  actAs: { Timestampable: ~ }
+  actAs: { Timestampable: ~ , Signable: ~ }
   columns:
-    post_author_id: { type: bigint(20), notnull: true }
     post_content:   { type: longtext, notnull: true }
     post_title:     { type: text, notnull: true }
-    comment_count:  { type: bigint(20), notnull: true }
-    #Falta poner columna para user_id, que correspondera a la tabla de usuarios cuando implente sfGuards.
-  relations:
-    sfGuardUser:    { onDelete: CASCADE, local: post_author_id, foreign: id, foreignAlias: AuthorId }
+    #Falta poner contador de comentarios
 
 TrapialComments:
-  actAs: {Timestampable: ~ }
+  actAs: { Timestampable: ~ }
   columns:
     comment_post_id:      { type: bigint(20), notnull: true, unique: true }
     comment_author:       { type: tinytext, notnull: true }

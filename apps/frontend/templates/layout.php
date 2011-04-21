@@ -72,7 +72,7 @@
                   </p>
                 </div>
               <?php else: ?>
-                <h1 class="login-form-title"><?php echo __('Inicie Sesi&oacute;n', null, 'sf_guard') ?></h1>
+                <span class="login-form-title"><?php echo __('Inicie Sesi&oacute;n', null, 'sf_guard') ?></span>
                 <?php include_component('sfGuardAuth', 'signin_form'); ?>
               <?php endif; ?>
             </div>

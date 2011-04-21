@@ -74,7 +74,7 @@ class postsActions extends sfActions
     {
       $trapial_posts = $form->save();
 
-      $this->redirect('posts/edit?id='.$trapial_posts->getId());
+      $this->redirect('posts/show?id='.$trapial_posts->getId());
     }
   }
 }

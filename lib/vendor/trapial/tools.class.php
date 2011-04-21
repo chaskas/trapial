@@ -21,7 +21,7 @@ class tools
   }
   public static function getResume($str)
   {
-    return substr(tools::delExtraSpaces($str),0,600)."...";
+    return substr(tools::delExtraSpaces($str),0,400)."...";
   }
   public static function formatDate($str)
   {
