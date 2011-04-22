@@ -20,8 +20,9 @@
     </script>
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   </head>
-  <body>
+  <body onload="initialize()">
     <div id="con-pos">
       <div id="container">
         <div id="demo">
@@ -36,19 +37,19 @@
             <ul>
               <li id="green" class="menu-aux-class">
                 <p class="menu-spacer"></p>
-                <p class="subtext"><a href="<?php echo url_for('@homepage') ?>" class="subtext">- Homepage</a></p>
+                <p class="subtext">-<a href="<?php echo url_for('@homepage') ?>" class="subtext">Homepage</a></p>
               </li>
               <li id="yellow" class="menu-aux-class">
                 <p class="menu-spacer"></p>
-                <p class="subtext"><a href="<?php echo url_for('posts/index') ?>" class="subtext">- Noticias</a></p>
+                <p class="subtext">-<a href="<?php echo url_for('posts/index') ?>" class="subtext">Noticias</a></p>
               </li>
               <li id="red" class="menu-aux-class">
                 <p><a href=""></a></p>
                 <p class="subtext"></p>
               </li>
               <li id="blue" class="menu-aux-class">
-                <p><a href=""></a></p>
-                <p class="subtext"></p>
+                <p class="menu-spacer"></p>
+                <p class="subtext">-<a href="<?php echo url_for('static/location') ?>" class="subtext">Ubicaci&oacute;n</a></p>
               </li>
               <li id="purple" class="menu-aux-class">
                 <div id="login-button">
@@ -94,7 +95,7 @@
         <div id="footer-menu">
           <div id="footer"></div>
           <div id="copyright">
-              <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="22" width="62" /></a>
+              <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="22" width="62" styles="border: 0px;"/></a>
           </div>
         </div>
       </div>

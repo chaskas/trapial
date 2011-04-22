@@ -18,4 +18,7 @@ class staticActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
   }
+  public function executeLocation(sfWebRequest $request)
+  {
+  }
 }
