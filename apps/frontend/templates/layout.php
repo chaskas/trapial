@@ -49,7 +49,7 @@
               </li>
               <li id="blue" class="menu-aux-class">
                 <p class="menu-spacer"></p>
-                <p class="subtext">-<a href="<?php echo url_for('static/location') ?>" class="subtext">Ubicaci&oacute;n</a></p>
+                <p class="subtext">-<a href="<?php echo url_for('static/location') ?>" class="subtext">Donde estamos</a></p>
               </li>
               <li id="purple" class="menu-aux-class">
                 <div id="login-button">

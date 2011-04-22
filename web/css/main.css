@@ -320,6 +320,16 @@ p.NewsReadMore {
   padding: 20px;
   position: relative;
 }
+#location-wrapper {
+  background: #c5fd80;
+  width: 823px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 539px;
+  padding: 20px;
+  position: relative;
+}
 
 .NewsCompleteTitle {
   color: #3c4144;
@@ -494,7 +504,7 @@ p.NewsReadMore {
 }
 #map_canvas{
   width: 400px;
-  height: 400px;
+  height: 529px;
   position: absolute;
   bottom: 20px;
   right: 20px;
