@@ -1,0 +1,8 @@
+## YAML Template.
+---
+TrapialPhotoCategory:
+<?php for($i = 1; $i <= 9; $i++): ?>
+  cat_<?php echo $i ?>:
+    category_name:        Categoria <?php echo $i."\n"; ?>
+    category_description: Descripcion de la categoria <?php echo $i."\n"; ?>
+<?php endfor; ?>

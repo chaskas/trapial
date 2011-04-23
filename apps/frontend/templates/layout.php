@@ -54,8 +54,8 @@
               <li id="purple" class="menu-aux-class">
                 <div id="login-button">
                 </div>
-                <p><a href=""></a></p>
-                <p class="subtext"></p>
+                <p class="menu-spacer"></p>
+                <p class="subtext">-<a href="<?php echo url_for('static/contact') ?>" class="subtext">Cont&aacute;ctanos</a></p>
                 <p id="facebook"><?php echo link_to(image_tag('facebook-icon-48x48.png',array('alt' => 'Encuentranos en Facebook', 'size' => '24x24','border'=> '0')),'http://www.facebook.com/mundo.cantaclaro',array('target'=>'_blank')); ?></p>
               </li>
             </ul>

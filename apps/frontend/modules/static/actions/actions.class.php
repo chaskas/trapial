@@ -21,4 +21,7 @@ class staticActions extends sfActions
   public function executeLocation(sfWebRequest $request)
   {
   }
+  public function executeContact(sfWebRequest $request)
+  {
+  }
 }

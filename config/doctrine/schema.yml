@@ -19,3 +19,15 @@ TrapialComments:
     TrapialPosts:         { onDelete: CASCADE, local: comment_post_id, foreign: id, foreignAlias: Comments }
     #Falta poner columna para user_id, que correspondera a la tabla de usuarios cuando implente sfGuards.
 
+TrapialPhotoCategory:
+  actAs: { Timestampable: ~ }
+  columns:
+    category_name:        { type: text, notnull: true }
+    category_description: { type: text }
+
+TrapialPhoto:
+  columns:
+    photo_category_id:    { type: bigint(20), notnull: true }
+    photo_filename:       { type: text, notnull: true }
+  relations:
+    TrapialPhotoCategory: { onDelete: CASCADE, local: photo_category_id, foreign: id, foreignAlias: Category }
