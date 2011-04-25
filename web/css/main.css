@@ -330,7 +330,18 @@ p.NewsReadMore {
   padding: 20px;
   position: relative;
 }
-
+.content-wrapper {
+  background: #c5fd80;
+  width: 823px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  position: relative;
+}
+#contact {
+  height: 599px;
+}
 .NewsCompleteTitle {
   color: #3c4144;
   font-family: "Courier New", Courier, monospace;
