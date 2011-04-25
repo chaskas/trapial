@@ -1,6 +1,6 @@
 <?php use_stylesheets_for_form($form) ?>
 <?php use_javascripts_for_form($form) ?>
-
+<?php use_javascript('tiny_mce/tiny_mce.js') ?>
 <div id="NewsComplete-wrapper">
 
 <form action="<?php echo url_for('posts/'.($form->getObject()->isNew() ? 'create' : 'update').(!$form->getObject()->isNew() ? '?id='.$form->getObject()->getId() : '')) ?>" method="post" <?php $form->isMultipart() and print 'enctype="multipart/form-data" ' ?>>

@@ -22,7 +22,7 @@
     <?php include_javascripts() ?>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   </head>
-  <body onload="initialize()">
+  <body>
     <div id="con-pos">
       <div id="container">
         <div id="demo">

@@ -1,3 +1,10 @@
+<?php use_javascript('jquery.nivo.slider.js') ?>
+<?php use_javascript('jquery.nivo.slider.pack.js') ?>
+<?php use_javascript('slider.js') ?>
+<?php use_javascript('cufon-yui.js') ?>
+<?php use_javascript('A_Safe_Place_to_Fall_400.font.js') ?>
+
+
 <script type="text/javascript">
         Cufon.replace('#sidebar-News'); // Works without a selector engine
 </script>

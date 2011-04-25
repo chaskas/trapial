@@ -12,6 +12,18 @@ class TrapialPhotoCategoryForm extends BaseTrapialPhotoCategoryForm
 {
   public function configure()
   {
+    $subForm = new sfForm();
+    for ($i = 0; $i < 2; $i++)
+    {
+      $TrapialPhoto = new TrapialPhoto();
+      $TrapialPhoto->TrapialPhotoCategory = $this->getObject();
+
+      $form = new TrapialPhotoForm($TrapialPhoto);
+   
+      $subForm->embedForm($i, $form);
+    }
+    $this->embedForm('newPhotos', $subForm);
+    
     $this->validatorSchema['category_name'] = new sfValidatorString();
     unset(
       $this['created_at'],

@@ -23,5 +23,30 @@ class staticActions extends sfActions
   }
   public function executeContact(sfWebRequest $request)
   {
+    $this->form = new ContactForm();
+  }
+  public function executeSendmail(sfWebRequest $request)
+  {
+    $this->forward404Unless($request->isMethod('POST'));
+
+    $name     = $request->getParameter('name');
+    $email    = $request->getParameter('email');
+    $subject  = $request->getParameter('subject');
+    $pre_message  = $request->getParameter('message');
+
+    $message = $name."\n".$email."\n\nDice:\n\nAsunto: ".$subject."\n\n".$pre_message;
+
+    $mensaje = Swift_Message::newInstance()
+      ->setFrom($email)
+      ->setTo('mr.chaskas@gmail.com') //CAMBIAR AL CORREO DE DESTINO DEFINITIVO
+      ->setSubject('Nuevo mensaje desde www.mundocantaclaro.cl')
+      ->setBody($message)
+    ;
+
+    $this->getMailer()->send($mensaje);
+    
+    $this->getResponse()->setContent('El mensaje ha sido enviado satisfactoriamente...');
+    
+    return sfView::NONE;
   }
 }
