@@ -252,6 +252,13 @@ p.News {
   margin-left: 20px;
   margin-right: 20px;
 }
+.content-title {
+  color: #3c4144;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 36pt;
+  font-weight: bold;
+  margin: 20px;
+}
 span.News {
   color: #3c4144;
   font-family: "Courier New", Courier, monospace;
@@ -338,9 +345,6 @@ p.NewsReadMore {
   margin-bottom: 20px;
   padding: 20px;
   position: relative;
-}
-#contact {
-  height: 599px;
 }
 .NewsCompleteTitle {
   color: #3c4144;

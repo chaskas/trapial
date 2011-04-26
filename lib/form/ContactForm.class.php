@@ -5,10 +5,10 @@ class ContactForm extends BaseForm
   public function setup()
   {
     $this->setWidgets(array(
-      'name'         => new sfWidgetFormInputText(array('default' => 'Nombre','label' => 'Nombre'), array('class' => 'contact-form-input','onclick' => 'this.value = "";')),
-      'email'        => new sfWidgetFormInputText(array('default' => 'Correo', 'label' => 'Email'), array('class' => 'contact-form-input','onclick' => 'this.value = "";')),
-      'subject'      => new sfWidgetFormInputText(array('default' => 'Asunto','label' => 'Asunto'), array('class' => 'contact-form-input','onclick' => 'this.value = "";')),
-      'message'      => new sfWidgetFormTextarea(array('default' => 'Mensaje','label' => 'Mensaje'), array('class' => 'contact-form-input-area','onclick' => 'this.value = "";')),
+      'name'         => new sfWidgetFormInputText(array('label' => 'Nombre'), array('class' => 'contact-form-input','onclick' => 'this.value = "";')),
+      'email'        => new sfWidgetFormInputText(array('label' => 'Email'), array('class' => 'contact-form-input','onclick' => 'this.value = "";')),
+      'subject'      => new sfWidgetFormInputText(array('label' => 'Asunto'), array('class' => 'contact-form-input','onclick' => 'this.value = "";')),
+      'message'      => new sfWidgetFormTextarea(array('label' => 'Mensaje'), array('class' => 'contact-form-input-area','onclick' => 'this.value = "";')),
     ));
 
     $this->setValidators(array(

@@ -1,5 +1,5 @@
 <?php use_helper('Date'); ?>
-<p class="News">Noticias Mundo Cantaclaro</p>
+<p class="content-title">Noticias Mundo Cantaclaro</p>
 <?php if ($sf_user->isAuthenticated()): ?>
 <p class="NewsAddNew"><a href="<?php echo url_for('posts/new') ?>"  class="NewsAddNew">Publicar nueva noticia</a></p>
 <?php endif; ?>
