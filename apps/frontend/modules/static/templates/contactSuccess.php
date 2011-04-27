@@ -3,6 +3,7 @@
 <p class="content-title">Escribenos</p>
 <div class="content-wrapper" id="contact">
 <div id="sendmail"></div>
+<?php echo image_tag('contact-form-niña.png',array('id'=>'contact-form-ninia')); ?>
 <div id="form-contact-wrapper">
 <form action="<?php echo url_for('static/sendmail') ?>" id="form-send" method="POST" autocomplete="off">
   <p><?php echo $form['name']->renderLabel('Tu Nombre',array('class'=>'contact-form-label')); ?></p>

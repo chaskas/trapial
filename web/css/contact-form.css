@@ -1,6 +1,15 @@
 #contact {
-  height: 629px;
+  height: 639px;
   position: relative;
+}
+#sendmail {
+  position: absolute;
+  right: 30px;
+  height: 20px;
+  width:  519px;
+  padding: 20px;
+  margin: 10px auto;
+  background: #000000;
 }
 #form-contact-wrapper {
   width: 519px;
@@ -21,7 +30,7 @@
   outline: 0;
   font: normal 13px/100% Verdana, Tahoma, sans-serif;
   font-weight: bold;
-  background: #9AB2FD;
+  background: #63a9ff;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
 }
@@ -34,7 +43,7 @@
   outline: 0;
   font: normal 13px/100% Verdana, Tahoma, sans-serif;
   font-weight: bold;
-  background: #9AB2FD;
+  background: #63a9ff;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px
 }
@@ -62,4 +71,10 @@ input:hover, textarea:hover, input:focus, textarea:focus {
   background:-webkit-gradient(linear,center bottom,center top,from(#3570b8),to(#5e9ae2));
   background:-moz-linear-gradient(90deg,#3570b8,#5e9ae2);
   filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#3570b8',endColorstr='#5e9ae2');
+}
+#contact-form-ninia {
+  float: left;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
 }
