@@ -1,9 +1,8 @@
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" />
 <link rel="stylesheet" href="../../js/jquery.ui.plupload/css/jquery.ui.plupload.css" type="text/css" />
 <?php use_stylesheet('../js/plupload/js/jquery.ui.plupload/css/jquery.ui.plupload.css') ?>
-<?php use_javascript('http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js') ?>
-<?php use_javascript('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js') ?>
-<?php use_javascript('http://bp.yahooapis.com/2.4.21/browserplus-min.js') ?>
+<?php use_javascript('jquery-ui.min.js') ?>
+<?php use_javascript('browserplus-min.js') ?>
 
 <?php use_javascript('plupload/js/plupload.js') ?>
 <?php use_javascript('plupload/js/plupload.js') ?>
