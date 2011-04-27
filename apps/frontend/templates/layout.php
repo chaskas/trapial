@@ -7,7 +7,7 @@
     <?php include_title() ?>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta name="google-site-verification" content="pyV4smMEAh7soahMM_ExvNiAHPrkGiSbJuvSHz5DdMc" />
-    <script type="text/javascript">
+<!--    <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-22337712-1']);
         _gaq.push(['_trackPageview']);
@@ -17,7 +17,7 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
-    </script>
+    </script>-->
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
@@ -95,7 +95,7 @@
         <div id="footer-menu">
           <div id="footer"></div>
           <div id="copyright">
-              <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="22" width="62" styles="border: 0px;"/></a>
+<!--              <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="22" width="62" styles="border: 0px;"/></a>-->
           </div>
         </div>
       </div>
