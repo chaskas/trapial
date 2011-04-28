@@ -74,19 +74,22 @@ html, body {
   float: left;
   min-height: 679px;
   width: 271px;
+  margin: 0px;
 }
 #left-bg2 {
   background-image: url(../images/left-bg2.jpg);
   background-repeat: repeat-y;
-  height: 100%;
+/*  min-height: 8px;*/
   width: 271px;
   clear: both;
+  margin: 0px;
 }
 #center-bg {
   background: url(../images/center-bg-top.jpg) #FFFFFF repeat-x top;
   float: left;
   width: 903px;
   min-height: 679px;
+  margin: 0px;
 }
 #right-bg {
   background-image: url(../images/right-bg.jpg);
@@ -94,13 +97,15 @@ html, body {
   float: right;
   min-height: 679px;
   width: 266px;
+  margin: 0px;
 }
 #right-bg2 {
   background-image: url(../images/right-bg2.jpg);
   background-repeat: repeat-y;
-  height: 100%;
+/*  min-height: 8px;*/
   width: 266px;
   clear: both;
+  margin: 0px;
 }
 #footer-bg {
 
@@ -345,9 +350,7 @@ p.NewsReadMore {
 .content-wrapper {
   background: #c5fd80;
   width: 823px;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   padding: 20px;
   position: relative;
 }

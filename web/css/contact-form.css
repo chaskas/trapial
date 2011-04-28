@@ -1,23 +1,21 @@
 #contact {
-  height: 539px;
+  height: 509px;
   position: relative;
 }
 #sendmail {
   position: absolute;
-  right: 30px;
+  right: 20px;
   height: 20px;
   width:  519px;
   padding: 20px;
-  margin: 10px auto;
   background: #000000;
 }
 #form-contact-wrapper {
   width: 519px;
   background: #FFFFFF;
   padding: 20px;
-  margin: 10px auto;
   position: absolute;
-  right: 30px;
+  right: 20px;
 }
 .contact-form-label {
   font: normal 13px/100% "Courier New", Courier, monospace;
