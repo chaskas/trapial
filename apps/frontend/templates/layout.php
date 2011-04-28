@@ -95,7 +95,7 @@
         <div id="footer-menu">
           <div id="footer"></div>
           <div id="copyright">
-              <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="22" width="62" styles="border: 0px;"/></a>
+              <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="22" width="62" style="border: 0px;"/></a>
           </div>
         </div>
       </div>

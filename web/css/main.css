@@ -62,6 +62,12 @@ html, body {
   float: right;
   height: 100%;
 }
+#center-bg {
+  background: url(../images/center-bg-top.jpg) #FFFFFF repeat-x top;
+  float: left;
+  width: 903px;
+  min-height: 679px;
+}
 #left-bg {
   background-image: url(../images/left-bg.jpg);
   background-repeat: no-repeat;
@@ -75,12 +81,6 @@ html, body {
   height: 100%;
   width: 271px;
   clear: both;
-}
-#center-bg {
-  /*background: url(../images/center-bg-top.jpg) #EFFBE3 repeat-x top;*/
-  background: url(../images/center-bg-top.jpg) #FFFFFF repeat-x top;
-  float: left;
-  width: 903px;
 }
 #right-bg {
   background-image: url(../images/right-bg.jpg);
