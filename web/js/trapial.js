@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $("#left-bg2").height($("#center-bg").height() - $("#left-bg").height());
-  $("#right-bg2").height($("#center-bg").height() - $("#right-bg").height());
+   $("#left-bg2").height($("#center-bg").height() - $("#left-bg").height());
+  $("#right-bg2").height($("#center-bg").height() - $("#left-bg").height());
 
   $("#sideBar").height($("#center-bg").height());
   Cufon.replace('#sidebar-News');
