@@ -81,6 +81,7 @@ html, body {
   background: url(../images/center-bg-top.jpg) #FFFFFF repeat-x top;
   float: left;
   width: 903px;
+  min-height: 679px;
 }
 #right-bg {
   background-image: url(../images/right-bg.jpg);
