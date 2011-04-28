@@ -82,6 +82,16 @@ html, body {
   width: 271px;
   clear: both;
 }
+<<<<<<< HEAD
+=======
+#center-bg {
+  /*background: url(../images/center-bg-top.jpg) #EFFBE3 repeat-x top;*/
+  background: url(../images/center-bg-top.jpg) #FFFFFF repeat-x top;
+  float: left;
+  width: 903px;
+  min-height: 679px;
+}
+>>>>>>> 0736712e2cf0364bc3d0ce784580725baa27395f
 #right-bg {
   background-image: url(../images/right-bg.jpg);
   background-repeat: no-repeat;
