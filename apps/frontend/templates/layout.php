@@ -35,28 +35,45 @@
         <div id="menu-bg">
           <div id="menu">
             <ul>
-              <li id="green" class="menu-aux-class">
-                <p class="menu-spacer"></p>
-                <p class="subtext">-<a href="<?php echo url_for('@homepage') ?>" class="subtext">Homepage</a></p>
+              <li id="green">
+                <a href="<?php echo url_for('@homepage') ?>"><p class="menu-spacer"></p></a>
+                <p class="subtext">-<a href="<?php echo url_for('@homepage') ?>" class="subtext">Inicio</a></p>
               </li>
               <li id="yellow" class="menu-aux-class">
                 <p class="menu-spacer"></p>
-                <p class="subtext">-<a href="<?php echo url_for('posts/index') ?>" class="subtext">Noticias</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/welcome') ?>" class="subtext menu-yellow">Bienvenida</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('posts/index') ?>" class="subtext menu-yellow">Noticias</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Jornadas</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/location') ?>" class="subtext menu-yellow">D&oacute;nde estamos</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Horarios de atenci&oacute;n</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Reseña Hist&oacute;rica</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Proyecto Educativo</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Familia Cantaclariense</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Infraestructura</a></p>
               </li>
               <li id="red" class="menu-aux-class">
-                <p><a href=""></a></p>
-                <p class="subtext"></p>
+                <p class="menu-spacer"></p>
+                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Sala Cuna</a></p>
+                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Jard&iacute;n Infantil</a></p>
+                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Transporte Escolar</a></p>
+                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Eventos Infantiles</a></p>
+                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Talleres de Verano</a></p>
+                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Otros</a></p>
               </li>
               <li id="blue" class="menu-aux-class">
                 <p class="menu-spacer"></p>
-                <p class="subtext">-<a href="<?php echo url_for('static/location') ?>" class="subtext">Donde estamos</a></p>
+                <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Salas</a></p>
+                <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Patios</a></p>
+                <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Cocina</a></p>
+                <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Baños / Mudadores</a></p>
+                <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Galer&iacute;a Fotogr&aacute;fica</a></p>
               </li>
-              <li id="purple" class="menu-aux-class">
+              <li id="purple">
                 <div id="login-button">
                 </div>
-                <p class="menu-spacer"></p>
-                <p class="subtext">-<a href="<?php echo url_for('static/contact') ?>" class="subtext">Cont&aacute;ctanos</a></p>
-                <p id="facebook"><?php echo link_to(image_tag('facebook-icon-48x48.png',array('alt' => 'Encuentranos en Facebook', 'size' => '24x24','border'=> '0')),'http://www.facebook.com/mundo.cantaclaro',array('target'=>'_blank')); ?></p>
+                <a href="<?php echo url_for('static/contact') ?>"><p class="menu-spacer">&nbsp;</p></a>
+<!--                <p class="subtext">-<a href="<?php echo url_for('static/contact') ?>" class="subtext">Cont&aacute;ctanos</a></p>-->
+<!--                <p id="facebook"><?php echo link_to(image_tag('facebook-icon-48x48.png',array('alt' => 'Encuentranos en Facebook', 'size' => '24x24','border'=> '0')),'http://www.facebook.com/mundo.cantaclaro',array('target'=>'_blank')); ?></p>-->
               </li>
             </ul>
           </div>

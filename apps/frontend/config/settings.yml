@@ -42,7 +42,7 @@ all:
     use_database:           true
 
     #sfGuard
-    enabled_modules:      [default, sfGuardAuth]
+    enabled_modules:      [default, sfGuardAuth, sfPlupload]
     login_module:           sfGuardAuth
     login_action:           signin
 

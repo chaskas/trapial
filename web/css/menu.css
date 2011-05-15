@@ -18,16 +18,31 @@ a {
 }
 .menu-spacer {
   height: 47px;
-  margin: 0 0 10px;
+  margin: 0 0 5px;
 }
 .subtext {
   font-family: "Courier New", Courier, monospace;
   font-size: 14px;
   font-weight: bold;
-  padding-left: 10px;
+  padding-left: 4px;
   color: #FFFFFF;
   text-align: left;
   margin: 0;
+}
+.menu-yellow {
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 2px 0 2px 4px;
+}
+.menu-red {
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 4px 0 4px 4px;
+}
+.menu-blue {
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 4px 0 4px 4px;
 }
 #facebook {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
@@ -75,6 +90,7 @@ a {
   width:      185px;
   height:     41px;
   background: url('../images/menu/Purple.jpg') top left no-repeat;
+  list-style: none;
 }
 #blue{
   float: left;
