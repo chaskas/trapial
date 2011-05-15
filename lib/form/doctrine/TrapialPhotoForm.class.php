@@ -12,10 +12,10 @@ class TrapialPhotoForm extends BaseTrapialPhotoForm
 {
   public function configure()
   {
-  $this->setWidget('photo_filename', new sfWidgetFormInputFile());
-  $this->setValidator('photo_filename', new sfValidatorFile(array(
-    'mime_types' => 'web_images',
-    'path' => sfConfig::get('sf_upload_dir').'/photos',
-  )));
+    $this->setWidget('photo_filename', new sfWidgetFormInputFile());
+    $this->setValidator('photo_filename', new sfValidatorFile(array(
+      'mime_types' => 'web_images',
+      'path' => sfConfig::get('sf_upload_dir').'/photos',
+    )));
   }
 }
