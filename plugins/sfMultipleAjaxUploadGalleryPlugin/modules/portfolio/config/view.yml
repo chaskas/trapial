@@ -12,16 +12,16 @@ default:
     language:     fr
     robots:       index, follow
 
-  stylesheets:    [main.css ]
+  stylesheets:    []
 
-  javascripts:    [../sfMultipleAjaxUploadGalleryPlugin/js/jquery/jquery-1.3.2.js, ../sfMultipleAjaxUploadGalleryPlugin/js/galleriffic/galleriffic.js, ../sfMultipleAjaxUploadGalleryPlugin/js/galleriffic/opacityrollover.js]
+  javascripts:    []
 
 
   has_layout:     true
   layout:         layout
 
 showSuccess:
-  stylesheets: [../sfMultipleAjaxUploadGalleryPlugin/css/galleriffic/jush.css]
-  javascripts: [../sfMultipleAjaxUploadGalleryPlugin/js/galleryInstance]
+  stylesheets: []
+  javascripts: []
   has_layout:     true
   layout:         layout

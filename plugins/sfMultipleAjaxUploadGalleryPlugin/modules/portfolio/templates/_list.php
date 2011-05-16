@@ -1,9 +1,9 @@
 <?php $galleries = Gallery::getAllGalleries() ?>
 
 <div>
-    <?php slot('h1') ?>
-    Liste des Portfolios
-    <?php end_slot() ?>
+    <?php //slot('h1') ?>
+    Galer&iacute;a Fotogr&aacute;fica
+    <?php //end_slot() ?>
 
     <?php foreach ($galleries as $i=>$gallery): ?>
     <div class="cont">
