@@ -1,3 +1,5 @@
+CREATE TABLE gallery (id BIGINT AUTO_INCREMENT, title VARCHAR(255), description VARCHAR(255), dans_gallerie TINYINT(1), created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, slug VARCHAR(255), UNIQUE INDEX gallery_sluggable_idx (slug), PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE photos (id BIGINT AUTO_INCREMENT, title VARCHAR(255), picpath VARCHAR(255), gallery_id BIGINT, is_default TINYINT(1) DEFAULT '0', created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, slug VARCHAR(255), UNIQUE INDEX photos_sluggable_idx (slug), INDEX gallery_id_idx (gallery_id), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE trapial_comments (id BIGINT AUTO_INCREMENT, comment_post_id bigint(20) NOT NULL UNIQUE, comment_author tinytext NOT NULL, comment_author_email VARCHAR(100) DEFAULT ' ' NOT NULL, comment_author_ip VARCHAR(100) DEFAULT ' ' NOT NULL, comment_content text NOT NULL, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, INDEX comment_post_id_idx (comment_post_id), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE trapial_photo (id BIGINT AUTO_INCREMENT, photo_category_id bigint(20) NOT NULL, photo_filename text NOT NULL, INDEX photo_category_id_idx (photo_category_id), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE trapial_photo_category (id BIGINT AUTO_INCREMENT, category_name text NOT NULL, category_description text, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
@@ -11,6 +13,7 @@ CREATE TABLE sf_guard_user (id BIGINT AUTO_INCREMENT, first_name VARCHAR(255), l
 CREATE TABLE sf_guard_user_group (user_id BIGINT, group_id BIGINT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(user_id, group_id)) ENGINE = INNODB;
 CREATE TABLE sf_guard_user_permission (user_id BIGINT, permission_id BIGINT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(user_id, permission_id)) ENGINE = INNODB;
 CREATE TABLE sf_guard_user_profile (id INT AUTO_INCREMENT, user_id bigint(20) NOT NULL, email VARCHAR(80), fullname VARCHAR(80), validate VARCHAR(17), INDEX user_id_idx (user_id), PRIMARY KEY(id)) ENGINE = INNODB;
+ALTER TABLE photos ADD CONSTRAINT photos_gallery_id_gallery_id FOREIGN KEY (gallery_id) REFERENCES gallery(id) ON DELETE CASCADE;
 ALTER TABLE trapial_comments ADD CONSTRAINT trapial_comments_comment_post_id_trapial_posts_id FOREIGN KEY (comment_post_id) REFERENCES trapial_posts(id) ON DELETE CASCADE;
 ALTER TABLE trapial_photo ADD CONSTRAINT trapial_photo_photo_category_id_trapial_photo_category_id FOREIGN KEY (photo_category_id) REFERENCES trapial_photo_category(id) ON DELETE CASCADE;
 ALTER TABLE trapial_posts ADD CONSTRAINT trapial_posts_updated_by_sf_guard_user_id FOREIGN KEY (updated_by) REFERENCES sf_guard_user(id) ON DELETE CASCADE;

@@ -536,3 +536,6 @@ p.NewsReadMore {
   -webkit-box-shadow: 0 0 5px#888;
   box-shadow: 0 0 5px #888;
 }
+#sf_admin_bar {
+  display: none;
+}

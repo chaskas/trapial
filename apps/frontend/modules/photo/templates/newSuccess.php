@@ -15,10 +15,10 @@
 
 <h1>New Trapial photo</h1>
 
-<form  method="post" action="dump.php">
+<!--<form  method="post" action="dump.php">
 	<div id="uploader">
 		<p>You browser doesn't have Flash, Silverlight, Gears, BrowserPlus or HTML5 support.</p>
 	</div>
-</form>
+</form>-->
 
 <?php include_partial('form', array('form' => $form)) ?>
