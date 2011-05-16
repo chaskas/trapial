@@ -42,7 +42,7 @@ all:
     use_database:           true
 
     #sfGuard
-    enabled_modules:      [default, sfGuardAuth,gallery]
+    enabled_modules:      [default, sfGuardAuth,gallery,portfolio]
     login_module:           sfGuardAuth
     login_action:           signin
 
