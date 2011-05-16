@@ -539,3 +539,17 @@ p.NewsReadMore {
 #sf_admin_bar {
   display: none;
 }
+#sf_admin_container {
+  margin: 0 auto;
+  width: 90%;
+  padding: 30px;
+}
+#sf_admin_content {
+  width: 100%;
+}
+.sf_admin_list {
+  width: 100%;
+}
+table {
+  width: 100%;
+}

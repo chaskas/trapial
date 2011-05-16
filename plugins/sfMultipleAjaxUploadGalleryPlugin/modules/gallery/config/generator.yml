@@ -20,7 +20,7 @@ generator:
         title:             { label: Nombre }
         description:       { label: Descripción }
       list:
-        title:             Albumes
+        title:             Álbumes
         display:           [=id, =title]
 #        batch_actions:
 #          _delete: ~
@@ -39,6 +39,7 @@ generator:
           _purge:
             name: Eliminar el album
             action: purge
+            label: Eliminar todas las fotos
       new:
         title:             Crear nuevo Album
         display:

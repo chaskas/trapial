@@ -7,14 +7,11 @@
  * 
  * @property longtext $post_content
  * @property text $post_title
- * @property Doctrine_Collection $Comments
  * 
- * @method longtext            getPostContent()  Returns the current record's "post_content" value
- * @method text                getPostTitle()    Returns the current record's "post_title" value
- * @method Doctrine_Collection getComments()     Returns the current record's "Comments" collection
- * @method TrapialPosts        setPostContent()  Sets the current record's "post_content" value
- * @method TrapialPosts        setPostTitle()    Sets the current record's "post_title" value
- * @method TrapialPosts        setComments()     Sets the current record's "Comments" collection
+ * @method longtext     getPostContent()  Returns the current record's "post_content" value
+ * @method text         getPostTitle()    Returns the current record's "post_title" value
+ * @method TrapialPosts setPostContent()  Sets the current record's "post_content" value
+ * @method TrapialPosts setPostTitle()    Sets the current record's "post_title" value
  * 
  * @package    trapial
  * @subpackage model
@@ -39,10 +36,6 @@ abstract class BaseTrapialPosts extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasMany('TrapialComments as Comments', array(
-             'local' => 'id',
-             'foreign' => 'comment_post_id'));
-
         $timestampable0 = new Doctrine_Template_Timestampable();
         $signable0 = new Doctrine_Template_Signable();
         $this->actAs($timestampable0);

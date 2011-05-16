@@ -7,27 +7,14 @@ TrapialPosts:
     post_title:     { type: text, notnull: true }
     #Falta poner contador de comentarios
 
-TrapialComments:
-  actAs: { Timestampable: ~ }
-  columns:
-    comment_post_id:      { type: bigint(20), notnull: true, unique: true }
-    comment_author:       { type: tinytext, notnull: true }
-    comment_author_email: { type: varchar(100), notnull: true, default: ' ' }
-    comment_author_ip:    { type: varchar(100), notnull: true, default: ' ' }
-    comment_content:      { type: text, notnull: true }
-  relations:
-    TrapialPosts:         { onDelete: CASCADE, local: comment_post_id, foreign: id, foreignAlias: Comments }
+#TrapialComments:
+#  actAs: { Timestampable: ~ }
+#  columns:
+#    comment_post_id:      { type: bigint(20), notnull: true, unique: true }
+#    comment_author:       { type: tinytext, notnull: true }
+#    comment_author_email: { type: varchar(100), notnull: true, default: ' ' }
+#    comment_author_ip:    { type: varchar(100), notnull: true, default: ' ' }
+#    comment_content:      { type: text, notnull: true }
+#  relations:
+#    TrapialPosts:         { onDelete: CASCADE, local: comment_post_id, foreign: id, foreignAlias: Comments }
     #Falta poner columna para user_id, que correspondera a la tabla de usuarios cuando implente sfGuards.
-
-TrapialPhotoCategory:
-  actAs: { Timestampable: ~ }
-  columns:
-    category_name:        { type: text, notnull: true }
-    category_description: { type: text }
-
-TrapialPhoto:
-  columns:
-    photo_category_id:    { type: bigint(20), notnull: true }
-    photo_filename:       { type: text, notnull: true }
-  relations:
-    TrapialPhotoCategory: { onDelete: CASCADE, local: photo_category_id, foreign: id, foreignAlias: Category }
