@@ -5,7 +5,7 @@
   $webDir = sfConfig::get("sf_web_dir");
   $correctPath = substr($uploadDir, strlen($webDir), strlen($uploadDir) - strlen($webDir));
 ?>
-<h1><?php echo $gallery->getTitle() ?></h1>
+<h1 class="gallery-title"><?php echo $gallery->getTitle() ?></h1>
 <div id="galleria">
 <?php foreach ($gallery->getPhotos() as $photo) { ?>
   <a href="<?php echo $correctPath.$gallery->getId()."/450/".$photo->getPicPath() ?>">

@@ -7,7 +7,7 @@
     <?php include_title() ?>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta name="google-site-verification" content="pyV4smMEAh7soahMM_ExvNiAHPrkGiSbJuvSHz5DdMc" />
-<!--    <script type="text/javascript">
+    <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-22337712-1']);
         _gaq.push(['_trackPageview']);
@@ -17,7 +17,7 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
-    </script>-->
+    </script>
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
@@ -66,7 +66,7 @@
                 <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Patios</a></p>
                 <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Cocina</a></p>
                 <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Baños / Mudadores</a></p>
-                <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Galer&iacute;a Fotogr&aacute;fica</a></p>
+                <p class="subtext menu-blue">&bull;<a href="<?php echo url_for('@listPortfolio') ?>" class="subtext menu-blue">Galer&iacute;a Fotogr&aacute;fica</a></p>
               </li>
               <li id="purple">
                 <div id="login-button">

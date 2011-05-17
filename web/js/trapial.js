@@ -5,6 +5,7 @@ $(document).ready(function(){
   $("#sideBar").height($("#center-bg").height());
   Cufon.replace('#sidebar-News');
   Cufon.replace('.content-title');
+  Cufon.replace('.gallery-title');
 });
 
 $(function(){

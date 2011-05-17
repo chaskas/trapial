@@ -1,28 +1,23 @@
+<?php use_stylesheet('gallery.css') ?>
 <?php $galleries = Gallery::getAllGalleries() ?>
-
-<div>
-    <?php //slot('h1') ?>
-    Galer&iacute;a Fotogr&aacute;fica
-    <?php //end_slot() ?>
-
-    <?php foreach ($galleries as $i=>$gallery): ?>
-    <div class="cont">
-        <div>
-		<a class="title" href="<?php echo url_for(@showGallery, $gallery) ?>">
-                	<h3><?php echo $gallery->getTitle() ?></h3>
-		</a>
-	</div>
-        <div>
-		<a href="<?php echo url_for(@showGallery, $gallery) ?>">
-                    <?php 
-                    $uploadDir = sfConfig::get("app_sfMultipleAjaxUploadGalleryPlugin_path_gallery");
-                    $webDir = sfConfig::get("sf_web_dir");
-                    $correctPath = substr($uploadDir, strlen($webDir), strlen($uploadDir)-strlen($webDir)); ?>
-                	<img src="<?php echo $correctPath."/".$gallery->getId()."/".
-				sfConfig::get("app_sfMultipleAjaxUploadGalleryPlugin_portfolio_thumbnails_size")."/".$gallery->getPhotoDefault()->getPicpath() ?>"/>
-            	</a>
-	</div>
+<?php
+  $uploadDir = sfConfig::get("app_sfMultipleAjaxUploadGalleryPlugin_path_gallery");
+  $webDir = sfConfig::get("sf_web_dir");
+  $correctPath = substr($uploadDir, strlen($webDir), strlen($uploadDir)-strlen($webDir));
+?>
+<h1 class="gallery-title">Galeria Fotografica</h1>
+<div id="gallery-wrapper">
+<?php $count = 0 ?>
+<?php foreach ($galleries as $i=>$gallery): ?>
+  <div id="<?php $gallery->getId(); ?>" class="album-view-container">
+    <div class="album-frame">
+      <a href="<?php echo url_for(@showGallery, $gallery) ?>">
+        <img alt="<?php echo $gallery->getTitle(); ?>"  src="<?php echo $correctPath."/".$gallery->getId()."/".sfConfig::get("app_sfMultipleAjaxUploadGalleryPlugin_portfolio_thumbnails_size")."/".$gallery->getPhotoDefault()->getPicpath() ?>"/>
+      </a>
     </div>
-    <?php endforeach; ?>
+    <p class="album-title"><a href="<?php echo url_for(@showGallery, $gallery) ?>"><?php echo $gallery->getTitle(); ?></a></p>
+    <p class="album-description"><?php echo $gallery->getDescription(); ?></p>
+  </div>
+  <?php $count++;if($count%3==0)echo "<div class='cb'></div>"; ?>
+<?php endforeach; ?>
 </div>
-<?php echo count($galleries) >= 4 ? '<div class="clear"></div>' : ""; ?>

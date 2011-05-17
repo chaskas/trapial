@@ -1,0 +1,32 @@
+#gallery-wrapper {
+  clear: both;
+  margin: 15px auto;
+  padding: 30px
+}
+.album-view-container {
+  float: left;
+  margin: 10px 20px;
+  text-align: center;
+  width: 230px;
+  height: 250px;
+  position: relative;
+  border: 5px #FFFFFF solid;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+.album-frame {
+  margin: 5px;
+  padding: 8px;
+}
+.cb {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: #2A2C2E;
+  font-size: 16px;
+}
+a:hover { text-decoration: underline; }
+
