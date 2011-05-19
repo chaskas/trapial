@@ -26,7 +26,7 @@
     <div id="con-pos">
       <div id="container">
         <div id="demo">
-          <p class="demo">Mundo Cantaclaro est&aacute; en etapa de construcción. Si desea hacer pruebas puede probar con el usuario habilitado para esto</p>
+          <p class="demo">Mundo Cantaclaro est&aacute; en etapa de construcción. <a href="./admin.php">Sistema de administraci&oacute;n</a></p>
           <p class="demo">Usuario: <b>test</b> Password: <b>test</b></p>
         </div>
         <div id="top-bg">
@@ -69,8 +69,6 @@
                 <p class="subtext menu-blue">&bull;<a href="<?php echo url_for('@listPortfolio') ?>" class="subtext menu-blue">Galer&iacute;a Fotogr&aacute;fica</a></p>
               </li>
               <li id="purple">
-                <div id="login-button">
-                </div>
                 <a href="<?php echo url_for('static/contact') ?>"><p class="menu-spacer">&nbsp;</p></a>
 <!--                <p class="subtext">-<a href="<?php echo url_for('static/contact') ?>" class="subtext">Cont&aacute;ctanos</a></p>-->
 <!--                <p id="facebook"><?php echo link_to(image_tag('facebook-icon-48x48.png',array('alt' => 'Encuentranos en Facebook', 'size' => '24x24','border'=> '0')),'http://www.facebook.com/mundo.cantaclaro',array('target'=>'_blank')); ?></p>-->
@@ -85,20 +83,6 @@
             <div id="left-bg2"></div>
           </div>
           <div id="center-bg">
-            <div id="login-box">
-              <?php if ($sf_user->isAuthenticated()): ?>
-                <div id="login-status-wrapper">
-                  <p id="logged_user">
-                    <span class="inner">
-                      Bienvenido <?php echo $sf_user->getGuardUser()->getName(); ?> | <?php echo link_to('Salir','@sf_guard_signout') ?>
-                    </span>
-                  </p>
-                </div>
-              <?php else: ?>
-                <span class="login-form-title"><?php echo __('Inicie Sesi&oacute;n', null, 'sf_guard') ?></span>
-                <?php include_component('sfGuardAuth', 'signin_form'); ?>
-              <?php endif; ?>
-            </div>
             <?php echo $sf_content; ?>
           </div>
           <div id="right">

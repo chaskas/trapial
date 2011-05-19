@@ -14,6 +14,7 @@ class postsActions extends sfActions
   {
     $this->trapial_postss = Doctrine_Core::getTable('TrapialPosts')
       ->createQuery('a')
+      ->orderBy('a.created_at DESC')
       ->execute();
   }
 

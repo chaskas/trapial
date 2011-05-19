@@ -45,12 +45,12 @@ photos:
     with_wildcard_routes: true
 #FRONTEND SIDE - portfolios
 showGallery:
-  url:      /portfolio/:slug
+  url:      /album/:slug
   class:    sfDoctrineRoute
   options:  { model: gallery, type: object }
   param:    { module: portfolio, action: show }
 listPortfolio:
-  url:      /portfolios
+  url:      /album
   class:    sfDoctrineRoute
   options:  { model: gallery, type: object }
   param:    { module: portfolio, action: index }

@@ -40,12 +40,7 @@ all:
     use_database:           true
 
     #sfGuard
-    enabled_modules:      [default, sfGuardAuth,portfolio]
-    login_module:           sfGuardAuth
-    login_action:           signin
-
-    secure_module:          sfGuardAuth
-    secure_action:          secure
+    enabled_modules:      [default, portfolio]
 
     i18n:  true
     default_culture:  es
