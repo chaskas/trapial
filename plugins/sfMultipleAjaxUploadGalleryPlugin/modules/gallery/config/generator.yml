@@ -16,7 +16,7 @@ generator:
       fields:
         created_at:        { label: Fecha de creación, date_format: dd/MM/yyyy }
         updated_at:        { label: Fecha de Modificación, date_format: dd/MM/yyyy }
-        dans_gallerie:        { label: Visible}
+        dans_gallerie:     { label: Visible}
         title:             { label: Nombre }
         description:       { label: Descripción }
       list:
@@ -28,7 +28,7 @@ generator:
       filter:  ~
       form:    ~
       edit:
-        title:             Modificar un Album
+        title:             Modificar un Álbum
         display:
           "Album":       [id, title, description, dans_gallerie]
           "Fotos":        [_photoUpload]
@@ -37,10 +37,10 @@ generator:
           _delete: ~
           _save: ~
           _purge:
-            name: Eliminar el album
+            name: Eliminar el álbum
             action: purge
             label: Eliminar todas las fotos
       new:
-        title:             Crear nuevo Album
+        title:             Crear nuevo Álbum
         display:
           "Album":       [id, title, description]

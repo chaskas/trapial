@@ -26,7 +26,7 @@
     <div id="con-pos">
       <div id="container">
         <div id="demo">
-          <p class="demo">Mundo Cantaclaro est&aacute; en etapa de construcción. <a href="./admin.php">Sistema de administraci&oacute;n</a></p>
+          <p class="demo">Mundo Cantaclaro est&aacute; en etapa de construcción. <a href="http://trapial.no-ip.org/admin.php" target="_blank">Sistema de administraci&oacute;n</a></p>
           <p class="demo">Usuario: <b>test</b> Password: <b>test</b></p>
         </div>
         <div id="top-bg">

@@ -6,10 +6,10 @@ default:
     content-type: text/html
 
   metas:
-    title:        Portfolio
+    title:        Galería Fotográfica
     description:  Description
-    keywords:     not used by google but by some others
-    language:     fr
+    keywords:     fotos mundo cantaclaro
+    language:     es
     robots:       index, follow
 
   stylesheets:    []
