@@ -10,7 +10,7 @@
 </script>
 
 <div id="sf_admin_container">
-  <h1><?php echo __('Modificar &aacute;lbum', array(), 'messages') ?></h1>
+  <h2 class="left"><?php echo __('Modificar &aacute;lbum', array(), 'messages') ?></h2>
 
   <?php include_partial('gallery/flashes') ?>
 
