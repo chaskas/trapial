@@ -26,14 +26,17 @@
 		  <!-- End Logo + Top Nav -->
 		
 		  <!-- Main Nav -->
+                  <?php if ($sf_user->isAuthenticated()): ?>
 		  <div id="navigation">
 			  <ul>
 			      <li><a href="<?php echo url_for('posts/index'); ?>" class="active"><span>Noticias</span></a></li>
 			      <li><a href="<?php echo url_for('gallery/index'); ?>"><span>Galer&iacute;a</span></a></li>
+                              <li><a href="<?php echo url_for('employee/index'); ?>"><span>Equipos</span></a></li>
 			      <li><a href="<?php echo url_for('guard/users'); ?>"><span>Usuarios</span></a></li>
 			      <li><a href="<?php echo url_for('guard/groups'); ?>"><span>Grupos</span></a></li>
 			  </ul>
 		  </div>
+                  <?php endif; ?>
 		  <!-- End Main Nav -->
 	  </div>
   </div>

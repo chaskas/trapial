@@ -18,3 +18,14 @@ TrapialPosts:
 #  relations:
 #    TrapialPosts:         { onDelete: CASCADE, local: comment_post_id, foreign: id, foreignAlias: Comments }
     #Falta poner columna para user_id, que correspondera a la tabla de usuarios cuando implente sfGuards.
+
+TrapialEmployee:
+  columns:
+    firstName:  { type: text, notnull: true }
+    lastName:   { type: text, notnull: true }
+    profession: { type: text }
+    ocupation:  { type: text, notnull: true }
+    picture:    { type: text, notnull: true }
+    team:       { type: text, notnull: true }
+    nivel:      { type: text, notnull: true }
+    
