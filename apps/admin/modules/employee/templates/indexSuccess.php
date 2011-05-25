@@ -30,7 +30,7 @@
             <td><?php echo $trapial_employee->getOcupation() ?></td>
             <td><?php echo $trapial_employee->getTeam() ?></td>
             <td><?php echo $trapial_employee->getNivel() ?></td>
-            <td><?php echo link_to('Borrar', 'posts/delete?id=' . $trapial_employee->getId(), array('method' => 'delete', 'confirm' => '¿Estas seguro?', 'class' => 'ico del')) ?><a href="<?php echo url_for('employee/edit?id=' . $trapial_employee->getId()) ?>" class="ico edit">Editar</a></td>
+            <td><?php echo link_to('Borrar', 'employee/delete?id=' . $trapial_employee->getId(), array('method' => 'delete', 'confirm' => '¿Estas seguro?', 'class' => 'ico del')) ?><a href="<?php echo url_for('employee/edit?id=' . $trapial_employee->getId()) ?>" class="ico edit">Editar</a></td>
           </tr>
         <?php $count++; ?>
 <?php endforeach; ?>
