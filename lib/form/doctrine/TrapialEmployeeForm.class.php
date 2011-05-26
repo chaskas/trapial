@@ -26,8 +26,8 @@ class TrapialEmployeeForm extends BaseTrapialEmployeeForm {
                 'is_image' => true,
                 'edit_mode' => !$this->isNew(),
                 'with_delete' => true,
-                'delete_label' => 'Borrar',
-                'template' => '<div>%file% %input%<br/>%delete% %delete_label%</div>',
+                'delete_label' => 'Borrar Foto',
+                'template' => '<div align="center"><br/>%file%<br/><br/>%input%<br/></br>%delete% %delete_label%</div>',
             ));
 
     $this->validatorSchema['picture'] = new sfValidatorFile(array(

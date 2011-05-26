@@ -19,11 +19,6 @@ class employeeActions extends sfActions {
                     ->execute();
   }
 
-  public function executeShow(sfWebRequest $request) {
-    $this->trapial_employee = Doctrine_Core::getTable('TrapialEmployee')->find(array($request->getParameter('id')));
-    $this->forward404Unless($this->trapial_employee);
-  }
-
   public function executeNew(sfWebRequest $request) {
     $this->form = new TrapialEmployeeForm();
   }
