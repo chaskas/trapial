@@ -16,9 +16,6 @@
 <input type="hidden" name="sf_method" value="put" />
 <?php endif; ?>
 
-<!--<p><?php //echo "<span class=\"News\">".$form['post_title']->renderLabel()."</span>"; ?></p>
-<p><?php //echo $form['post_title']->render(array('class'=>'field size1')); ?></p>
-<p><?php //echo $form['post_content']->render(array('class'=>'field size1','style'=>'width:948px;')); ?></p>-->
 <div class="employee-wrapper">
 <div class="picture">
       <p class="inline-field">
@@ -49,7 +46,7 @@
         <label><?php echo $form['team']->renderLabel(); ?></label>
         <?php echo $form['team']->render(array('class'=>'field size4')); ?>
       </p>
-      <p class="inline-field">
+      <p class="inline-field" id="employee-nivel">
         <label><?php echo $form['nivel']->renderLabel(); ?></label>
         <?php echo $form['nivel']->render(array('class'=>'field size4')); ?>
       </p>

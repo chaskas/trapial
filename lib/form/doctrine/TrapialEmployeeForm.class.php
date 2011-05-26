@@ -40,8 +40,8 @@ class TrapialEmployeeForm extends BaseTrapialEmployeeForm {
     $this->validatorSchema['picture_delete'] = new sfValidatorBoolean();
 
     $this->widgetSchema->setLabels(array(
-        'firstName' => 'Nombre',
-        'lastName' => 'Apellido',
+        'firstName' => 'Nombres',
+        'lastName' => 'Apellidos',
         'profession' => 'T&iacute;tulo',
         'ocupation' => 'Cargo',
         'picture' => 'Fotograf&iacute;a',

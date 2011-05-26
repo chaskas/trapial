@@ -14,7 +14,7 @@ default:
 
   stylesheets:    [spring-time/style.css]
 
-  javascripts:    []
+  javascripts:    [jquery-1.5.1.js,admin.js]
 
   has_layout:     true
   layout:         layout
