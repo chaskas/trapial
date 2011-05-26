@@ -67,23 +67,10 @@ class employeeActions extends sfActions {
     if ($form->isValid()) {
       $trapial_employee = $form->save();
 
-      if ($form->getValue('picture')) {
-        // Restablesco el nombre del archivo y renombro el archivo
-        $Distributor = DistributorPeer::retrieveByPK($Distributor->getIdDistributor());
-        $fileName = explode(".", $Distributor->getDistributorImage());
-        $ext = strtolower($fileName[1]);
-        if ($ext == "jpeg") {
-          $ext = "jpg";
-        }
-        rename(sfConfig::get('app_directory_distributor').$Distributor->getDistributorImage(),sfConfig::get('app_directory_distributor') . "distributor_" .$Distributor->getIdDistributor() . "." . $ext);
-
-        $Distributor->setDistributorImage('distributor_' .$Distributor->getIdDistributor() . '.jpg');
-
-        $Distributor->save();
-      }
-
       $this->redirect('employee/edit?id=' . $trapial_employee->getId());
     }
   }
+
+
 
 }
