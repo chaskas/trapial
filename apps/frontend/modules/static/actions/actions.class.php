@@ -108,7 +108,97 @@ class staticActions extends sfActions
   public function executeJornadas(sfWebRequest $request)
   {
   }
+  public function executeSalacuna(sfWebRequest $request)
+  {
+  }
+  public function executeJardininfantil(sfWebRequest $request)
+  {
+  }
+  public function executeTransporte(sfWebRequest $request)
+  {
+  }
+  public function executeTalleresyotros(sfWebRequest $request)
+  {
+  }
+  public function executeEventos(sfWebRequest $request)
+  {
+  }
   public function executeHorarios(sfWebRequest $request)
+  {
+  }
+  public function executeSalas(sfWebRequest $request)
+  {
+    $this->gatitos = Doctrine_Core::getTable('TrapialEmployee')
+      ->createQuery('a')
+      ->select('a.firstName','a.lastName','a.ocupation','a.profession','a.picture')
+      ->where('a.team = 1')
+      ->andWhere('a.nivel = 0')
+      ->orderBy('a.firstName DESC')
+      ->execute();
+
+    $this->pollitos = Doctrine_Core::getTable('TrapialEmployee')
+      ->createQuery('a')
+      ->select('a.firstName','a.lastName','a.ocupation','a.profession','a.picture')
+      ->where('a.team = 1')
+      ->andWhere('a.nivel = 1')
+      ->orderBy('a.firstName DESC')
+      ->execute();
+
+    $this->leones = Doctrine_Core::getTable('TrapialEmployee')
+      ->createQuery('a')
+      ->select('a.firstName','a.lastName','a.ocupation','a.profession','a.picture')
+      ->where('a.team = 1')
+      ->andWhere('a.nivel = 2')
+      ->orderBy('a.firstName DESC')
+      ->execute();
+
+    $this->cuncunas = Doctrine_Core::getTable('TrapialEmployee')
+      ->createQuery('a')
+      ->select('a.firstName','a.lastName','a.ocupation','a.profession','a.picture')
+      ->where('a.team = 1')
+      ->andWhere('a.nivel = 3')
+      ->orderBy('a.firstName DESC')
+      ->execute();
+
+    $this->ardillas = Doctrine_Core::getTable('TrapialEmployee')
+      ->createQuery('a')
+      ->select('a.firstName','a.lastName','a.ocupation','a.profession','a.picture')
+      ->where('a.team = 1')
+      ->andWhere('a.nivel = 4')
+      ->orderBy('a.firstName DESC')
+      ->execute();
+
+    $this->conejos = Doctrine_Core::getTable('TrapialEmployee')
+      ->createQuery('a')
+      ->select('a.firstName','a.lastName','a.ocupation','a.profession','a.picture')
+      ->where('a.team = 1')
+      ->andWhere('a.nivel = 5')
+      ->orderBy('a.firstName DESC')
+      ->execute();
+
+    $this->cachorros = Doctrine_Core::getTable('TrapialEmployee')
+      ->createQuery('a')
+      ->select('a.firstName','a.lastName','a.ocupation','a.profession','a.picture')
+      ->where('a.team = 1')
+      ->andWhere('a.nivel = 6')
+      ->orderBy('a.firstName DESC')
+      ->execute();
+
+    $this->semillas = Doctrine_Core::getTable('TrapialEmployee')
+      ->createQuery('a')
+      ->select('a.firstName','a.lastName','a.ocupation','a.profession','a.picture')
+      ->where('a.team = 1')
+      ->andWhere('a.nivel = 7')
+      ->orderBy('a.firstName DESC')
+      ->execute();
+  }
+  public function executePatios(sfWebRequest $request)
+  {
+  }
+  public function executeCocinas(sfWebRequest $request)
+  {
+  }
+  public function executeBanos(sfWebRequest $request)
   {
   }
   public function executeContact(sfWebRequest $request)

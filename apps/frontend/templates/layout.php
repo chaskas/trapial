@@ -25,10 +25,6 @@
   <body>
     <div id="con-pos">
       <div id="container">
-<!--        <div id="demo">
-          <p class="demo">Mundo Cantaclaro est&aacute; en etapa de construcción. <a href="http://trapial.no-ip.org/admin.php" target="_blank">Sistema de administraci&oacute;n</a></p>
-          <p class="demo">Usuario: <b>test</b> Password: <b>test</b></p>
-        </div>-->
         <div id="top-bg">
           <div id="header"></div>
         </div>
@@ -52,19 +48,19 @@
               </li>
               <li id="red" class="menu-aux-class">
                 <p class="menu-spacer"></p>
-                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Sala Cuna</a></p>
-                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Jard&iacute;n Infantil</a></p>
-                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Transporte Escolar</a></p>
-                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Eventos Infantiles</a></p>
-                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Talleres de Verano</a></p>
-                <p class="subtext menu-red">&bull;<a href="#" class="subtext menu-red">Otros</a></p>
+                <p class="subtext menu-red">&bull;<a href="<?php echo url_for('static/salacuna') ?>" class="subtext menu-red">Sala Cuna</a></p>
+                <p class="subtext menu-red">&bull;<a href="<?php echo url_for('static/jardininfantil') ?>" class="subtext menu-red">Jard&iacute;n Infantil</a></p>
+                <p class="subtext menu-red">&bull;<a href="<?php echo url_for('static/transporte') ?>" class="subtext menu-red">Transporte Escolar</a></p>
+                <p class="subtext menu-red">&bull;<a href="<?php echo url_for('static/eventos') ?>" class="subtext menu-red">Eventos Infantiles</a></p>
+                <p class="subtext menu-red">&bull;<a href="<?php echo url_for('static/talleresyotros') ?>" class="subtext menu-red">Talleres de Verano</a></p>
+                <p class="subtext menu-red">&bull;<a href="<?php echo url_for('static/talleresyotros#otros') ?>" class="subtext menu-red">Otros</a></p>
               </li>
               <li id="blue" class="menu-aux-class">
                 <p class="menu-spacer"></p>
-                <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Salas</a></p>
-                <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Patios</a></p>
-                <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Cocina</a></p>
-                <p class="subtext menu-blue">&bull;<a href="#" class="subtext menu-blue">Baños / Mudadores</a></p>
+                <p class="subtext menu-blue">&bull;<a href="<?php echo url_for('static/salas') ?>" class="subtext menu-blue">Salas</a></p>
+                <p class="subtext menu-blue">&bull;<a href="<?php echo url_for('static/patios') ?>" class="subtext menu-blue">Patios</a></p>
+                <p class="subtext menu-blue">&bull;<a href="<?php echo url_for('static/cocinas') ?>" class="subtext menu-blue">Cocina</a></p>
+                <p class="subtext menu-blue">&bull;<a href="<?php echo url_for('static/banos') ?>" class="subtext menu-blue">Baños / Mudadores</a></p>
                 <p class="subtext menu-blue">&bull;<a href="<?php echo url_for('@listPortfolio') ?>" class="subtext menu-blue">Galer&iacute;a Fotogr&aacute;fica</a></p>
               </li>
               <li id="purple">

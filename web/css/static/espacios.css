@@ -1,0 +1,63 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 11pt;
+  color: #3c4144;
+}
+a {
+  color: #3c4144;
+  text-decoration: none;
+  font-size: 12pt;
+}
+a:hover { text-decoration: underline;}
+.equipo {
+  margin: 0 30px;
+  padding: 20px;
+}
+ul.listadosalas {
+  margin-left: 60px;
+}
+li.listadosalas {
+  line-height: 30px;
+}
+.foto-wrapper-salas {
+  text-align: center;
+  margin: 10px;
+}
+img.foto {
+  border: 4px solid #FFFFFF;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+.persona  {
+  float: left;
+  margin: 0 20px;
+  text-align: center;
+}
+.datos {
+  font-size: 9pt;
+}
+.ocupation {
+  font-size: 8pt;
+}
+h1.sala-title {
+  margin: 15px 30px;
+}
+h2.team-title {
+  margin: 5px 30px;
+}
+p.contamos {
+  margin: 10px 50px;
+}
+p.contamos2 {
+  margin: 30px 50px;
+}
+#cl {
+  clear: both;
+}
+#galleria {
+  padding: 0 30px;
+}
+.galleria-container  {
+  margin: 0 auto;
+}
