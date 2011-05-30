@@ -1,0 +1,37 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 11pt;
+  color: #3c4144;
+}
+#resena-wrapper {
+  margin: 30px;
+}
+#texto {
+  width: 70%;
+}
+#texto2 {
+  width: 70%;
+}
+p.par {
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 150%;
+}
+p.par2 {
+  text-align: justify;
+  line-height: 150%;
+}
+#fotos1 {
+  width: 30%;
+}
+#fotos2 {
+  width: 140px;
+  float: left;
+}
+.titulo-resena {
+  font-size: 14pt;
+  font-weight: bold;
+}
+ul.metodolo {
+  margin: 0 30px;
+}

@@ -1,8 +1,8 @@
 #data/fixtures/posts.yml
 TrapialPosts:
   noticiaA:
-    post_title:    Probando Noticia 1
-    post_content:  Se sub arriendan oficinas en COCHRANE 890. Ojalá para profesionales área de salud para complementar servicios a la comunidad.
+    post_title:    Atención personalizada de profesionales
+    post_content:  Nuestras nuevas dependencias de nuestro jardín, cuenta ahora con un grupo de profesionales, como
     Creator: User_admin
     Updator: User_admin
   noticiaB:

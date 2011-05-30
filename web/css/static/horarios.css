@@ -1,0 +1,22 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 11pt;
+  color: #3c4144;
+}
+#horarios-wrapper {
+  margin: 20px;
+  padding: 40px;
+}
+ul.lista-horarios {
+  margin-left: 70px;
+  margin-top: 30px;
+}
+li.lista-horarios {
+  margin-top: 30px;
+}
+#hora-left {
+  float: left;
+}
+.hora {
+  margin: 50px;
+}

@@ -6,11 +6,11 @@ default:
     content-type: text/html
 
   metas:
-    #title:        symfony project
+    title:        Mundo Cantaclaro
     #description:  symfony project
     #keywords:     symfony, project
-    #language:     en
-    #robots:       index, follow
+    language:     es
+    robots:       index, follow
 
   stylesheets:    [main.css,menu.css,nivo-slider.css,redmond/jquery-ui-1.8.11.custom.css]
 

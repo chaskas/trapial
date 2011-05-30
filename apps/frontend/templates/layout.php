@@ -25,10 +25,10 @@
   <body>
     <div id="con-pos">
       <div id="container">
-        <div id="demo">
+<!--        <div id="demo">
           <p class="demo">Mundo Cantaclaro est&aacute; en etapa de construcción. <a href="http://trapial.no-ip.org/admin.php" target="_blank">Sistema de administraci&oacute;n</a></p>
           <p class="demo">Usuario: <b>test</b> Password: <b>test</b></p>
-        </div>
+        </div>-->
         <div id="top-bg">
           <div id="header"></div>
         </div>
@@ -41,14 +41,13 @@
               </li>
               <li id="yellow" class="menu-aux-class">
                 <p class="menu-spacer"></p>
-                <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/welcome') ?>" class="subtext menu-yellow">Bienvenida</a></p>
                 <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('posts/index') ?>" class="subtext menu-yellow">Noticias</a></p>
-                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Jornadas</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/jornadas') ?>" class="subtext menu-yellow">Jornadas</a></p>
                 <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/location') ?>" class="subtext menu-yellow">D&oacute;nde estamos</a></p>
-                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Horarios de atenci&oacute;n</a></p>
-                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Reseña Hist&oacute;rica</a></p>
-                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Proyecto Educativo</a></p>
-                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Familia Cantaclariense</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/horarios') ?>" class="subtext menu-yellow">Horarios de atenci&oacute;n</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/resena') ?>" class="subtext menu-yellow">Reseña Hist&oacute;rica</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/resena#peduc') ?>" class="subtext menu-yellow">Proyecto Educativo</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/familia') ?>" class="subtext menu-yellow">Familia Cantaclariense</a></p>
                 <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Infraestructura</a></p>
               </li>
               <li id="red" class="menu-aux-class">
