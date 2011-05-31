@@ -5,7 +5,7 @@
   $webDir = sfConfig::get("sf_web_dir");
   $correctPath = substr($uploadDir, strlen($webDir), strlen($uploadDir)-strlen($webDir));
 ?>
-<h1 class="gallery-title">Galeria Fotografica</h1>
+<h1 class="content-title">Galería Fotográfica</h1>
 <div id="gallery-wrapper">
 <?php $count = 0 ?>
 <?php foreach ($galleries as $i=>$gallery): ?>

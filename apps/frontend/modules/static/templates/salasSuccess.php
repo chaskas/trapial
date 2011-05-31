@@ -2,7 +2,7 @@
 <?php use_javascript('galleria/galleria-1.2.3.min.js') ?>
 <p class="content-title">Nuestras Salas</p>
 <p class="contamos">
-  Haga click en el enlace para ver la descripci&oacuten;
+  Haga click en el enlace para ver la descripci&oacute;n
 </p>
 <ul class="listadosalas">
   <li class="listadosalas"><a href="#Gatitos">Sala Gatitos</a></li>

@@ -32,8 +32,7 @@
           <div id="menu">
             <ul>
               <li id="green">
-                <a href="<?php echo url_for('@homepage') ?>"><p class="menu-spacer"></p></a>
-                <p class="subtext">-<a href="<?php echo url_for('@homepage') ?>" class="subtext">Inicio</a></p>
+                <div class="menu-spacer1"><a href="<?php echo url_for('@homepage') ?>" class="link1"></a></div>
               </li>
               <li id="yellow" class="menu-aux-class">
                 <p class="menu-spacer"></p>
@@ -64,9 +63,7 @@
                 <p class="subtext menu-blue">&bull;<a href="<?php echo url_for('@listPortfolio') ?>" class="subtext menu-blue">Galer&iacute;a Fotogr&aacute;fica</a></p>
               </li>
               <li id="purple">
-                <a href="<?php echo url_for('static/contact') ?>"><p class="menu-spacer">&nbsp;</p></a>
-<!--                <p class="subtext">-<a href="<?php echo url_for('static/contact') ?>" class="subtext">Cont&aacute;ctanos</a></p>-->
-<!--                <p id="facebook"><?php echo link_to(image_tag('facebook-icon-48x48.png',array('alt' => 'Encuentranos en Facebook', 'size' => '24x24','border'=> '0')),'http://www.facebook.com/mundo.cantaclaro',array('target'=>'_blank')); ?></p>-->
+                <div class="menu-spacer1"><a href="<?php echo url_for('static/contact') ?>" class="link1"></a></div>
               </li>
             </ul>
           </div>

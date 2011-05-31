@@ -20,7 +20,7 @@
 <h1 class="titulo-equipo">Equipo Educativo</h1>
 
 
-<p><h2 class="titulo-nivel">Gatitos (Nivel Sala cuna Menor)</h2><?php echo image_tag('niveles/Gato.png','alt=Gatitos class=icono'); ?></p>
+<h2 class="titulo-nivel">Gatitos (Nivel Sala cuna Menor)</h2>&nbsp;<?php echo image_tag('niveles/Gato.png','alt=Gatitos class=icono'); ?><br/><br/>
 
 <?php foreach ($gatitos as $gatito): ?>
 <div class="equipo">
@@ -35,8 +35,8 @@
 </div>
 <?php endforeach; ?>
 
-<?php echo image_tag('niveles/Pollito.png','alt=Pollitos class=icono'); ?>
-<h2 class="titulo-nivel">Pollitos (Nivel Sala cuna Intermedia)</h2>
+
+<h2 class="titulo-nivel">Pollitos (Nivel Sala cuna Intermedia)</h2>&nbsp;<?php echo image_tag('niveles/Pollito.png','alt=Pollitos class=icono'); ?><br/><br/>
 <?php foreach ($pollitos as $pollito): ?>
 <div class="equipo">
   <div class="foto-wrapper">
@@ -50,8 +50,8 @@
 </div>
 <?php endforeach; ?>
 
-<?php echo image_tag('niveles/Leon.png','alt=Leones class=icono'); ?>
-<h2 class="titulo-nivel">Leones (Nivel Sala cuna Mayor)</h2>
+
+<h2 class="titulo-nivel">Leones (Nivel Sala cuna Mayor)</h2>&nbsp;<?php echo image_tag('niveles/Leon.png','alt=Leones class=icono'); ?><br/><br/>
 <?php foreach ($leones as $leon): ?>
 <div class="equipo">
   <div class="foto-wrapper">
@@ -65,8 +65,8 @@
 </div>
 <?php endforeach; ?>
 
-<?php echo image_tag('niveles/Cuncuna.png','alt=Cuncunas class=icono'); ?>
-<h2 class="titulo-nivel">Cuncunas (Nivel Medio menor I)</h2>
+
+<h2 class="titulo-nivel">Cuncunas (Nivel Medio menor I)</h2>&nbsp;<?php echo image_tag('niveles/Cuncuna.png','alt=Cuncunas class=icono'); ?><br/><br/>
 <?php foreach ($cuncunas as $cuncuna): ?>
 <div class="equipo">
   <div class="foto-wrapper">
@@ -80,8 +80,8 @@
 </div>
 <?php endforeach; ?>
 
-<?php echo image_tag('niveles/Ardilla.png','alt=Ardillas class=icono'); ?>
-<h2 class="titulo-nivel">Ardillas (Nivel Medio menor II)</h2>
+
+<h2 class="titulo-nivel">Ardillas (Nivel Medio menor II)</h2>&nbsp;<?php echo image_tag('niveles/Ardilla.png','alt=Ardillas class=icono'); ?><br/><br/>
 <?php foreach ($ardillas as $ardilla): ?>
 <div class="equipo">
   <div class="foto-wrapper">
@@ -95,8 +95,8 @@
 </div>
 <?php endforeach; ?>
 
-<?php echo image_tag('niveles/Conejo.png','alt=Conejos class=icono'); ?>
-<h2 class="titulo-nivel">Conejos (Nivel Medio mayor I)</h2>
+
+<h2 class="titulo-nivel">Conejos (Nivel Medio mayor I)</h2>&nbsp;<?php echo image_tag('niveles/Conejo.png','alt=Conejos class=icono'); ?><br/><br/>
 <?php foreach ($conejos as $conejo): ?>
 <div class="equipo">
   <div class="foto-wrapper">
@@ -110,8 +110,8 @@
 </div>
 <?php endforeach; ?>
 
-<?php echo image_tag('niveles/Perro.png','alt=Cachorros class=icono'); ?>
-<h2 class="titulo-nivel">Cachorros (Nivel Medio mayor II)</h2>
+
+<h2 class="titulo-nivel">Cachorros (Nivel Medio mayor II)</h2>&nbsp;<?php echo image_tag('niveles/Perro.png','alt=Cachorros class=icono'); ?><br/><br/>
 <?php foreach ($cachorros as $cachorro): ?>
 <div class="equipo">
   <div class="foto-wrapper">
@@ -125,8 +125,8 @@
 </div>
 <?php endforeach; ?>
 
-<?php echo image_tag('niveles/sin-avatar.png','alt=Semillas class=icono'); ?>
-<h2 class="titulo-nivel">Semilla (Nivel Especial)</h2>
+
+<h2 class="titulo-nivel">Semilla (Nivel Especial)</h2>&nbsp;<?php echo image_tag('niveles/sin-avatar.png','alt=Semillas class=icono'); ?><br/><br/>
 <?php foreach ($semillas as $semilla): ?>
 <div class="equipo">
   <div class="foto-wrapper">
