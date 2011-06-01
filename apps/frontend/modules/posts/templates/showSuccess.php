@@ -4,8 +4,5 @@
   <div id="NewsCompleteContent-wrapper"><div id="NewsCompleteContent"><?php echo $trapial_posts->getRawValue()->getPostContent(); ?></div></div>
   <div id="NewsCompleteLinks-wrapper">
     <p class="NewsCompleteBack"><a class="NewsCompleteBack" href="<?php echo url_for('posts/index') ?>">Volver</a></p>
-    <?php if ($sf_user->isAuthenticated()): ?>
-    <p class="NewsCompleteEdit"><a class="NewsCompleteEdit" href="<?php echo url_for('posts/edit?id='.$trapial_posts->getId()) ?>">Editar</a></p>
-    <?php endif; ?>
   </div>
 </div>

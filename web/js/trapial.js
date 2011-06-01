@@ -6,7 +6,7 @@ $(document).ready(function(){
   Cufon.replace('#sidebar-News');
   Cufon.replace('.content-title');
   Cufon.replace('.gallery-title');
-//  Cufon.replace('.subtext');
+  Cufon.replace('h1.lastest-news-h1');
 });
 
 $(function(){

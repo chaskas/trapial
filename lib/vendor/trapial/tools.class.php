@@ -23,6 +23,10 @@ class tools
   {
     return substr(tools::delExtraSpaces($str),0,400)."...";
   }
+  public static function getResumeSideBar($str)
+  {
+    return substr(tools::delExtraSpaces($str),0,300)."...";
+  }
   public static function getResumeShort($str)
   {
     return substr(tools::delExtraSpaces($str),0,30)."...";
