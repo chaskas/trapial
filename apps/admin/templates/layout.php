@@ -29,10 +29,10 @@
                   <?php if ($sf_user->isAuthenticated()): ?>
 		  <div id="navigation">
 			  <ul>
-			      <li><a href="<?php echo url_for('posts/index'); ?>" class="active"><span>Noticias</span></a></li>
-			      <li><a href="<?php echo url_for('gallery/index'); ?>"><span>Galer&iacute;a Fotogr&aacute;fica</span></a></li>
-                              <li><a href="<?php echo url_for('employee/index'); ?>"><span>Personal</span></a></li>
-			      <li><a href="<?php echo url_for('guard/users'); ?>"><span>Usuarios</span></a></li>
+			      <li><a href="<?php echo url_for('posts/index'); ?>" <?php if($sf_context->getModuleName()=='posts') echo "class='active'"; ?>><span>Noticias</span></a></li>
+			      <li><a href="<?php echo url_for('gallery/index'); ?>" <?php if($sf_context->getModuleName()=='gallery') echo "class='active'"; ?>><span>Galer&iacute;a Fotogr&aacute;fica</span></a></li>
+                              <li><a href="<?php echo url_for('employee/index'); ?>" <?php if($sf_context->getModuleName()=='employee') echo "class='active'"; ?>><span>Personal</span></a></li>
+			      <li><a href="<?php echo url_for('guard/users'); ?>" <?php if($sf_context->getModuleName()=='sfGuardUser') echo "class='active'"; ?>><span>Usuarios</span></a></li>
 			  </ul>
 		  </div>
                   <?php endif; ?>
