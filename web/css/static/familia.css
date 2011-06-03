@@ -26,11 +26,13 @@ img.foto {
 }
 h1.titulo-equipo {
   margin: 10px 30px;
+  font-size: 30pt;
 }
 h2.titulo-nivel {
   margin: 0 50px;
   float: left;
   line-height: 60px;
+  font-size: 24pt;
 }
 img.icono {
   margin: 0px 20px;

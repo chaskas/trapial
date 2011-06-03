@@ -9,6 +9,6 @@
   </ul>
   </div>
   <div id="jorn-right">
-    <?php echo image_tag('jornadas.jpg'); ?>
+    <?php echo image_tag('jornadas.jpg','size=312x280'); ?>
   </div>
 </div>

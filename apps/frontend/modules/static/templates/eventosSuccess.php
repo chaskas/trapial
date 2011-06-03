@@ -7,9 +7,11 @@
     <li class="ev-list">Cama elástica</li>
     <li class="ev-list">Decoración con globos y papel</li>
     <li class="ev-list">Fuente de chocolate</li>
-    <li class="ev-list">Próximamente disfraces y un Galpón de eventos más grande</li>
+    <li class="ev-list">Próximamente disfraces y un Salón de eventos más grande</li>
     <li class="ev-list">Próximamente Disco peques</li>
     <li class="ev-list">Servicio de confites y torta</li>
+    <li class="ev-list">Entre otros</li>
   </ul>
+  <p>Contactanos en: <b>Cochrane #870</b>, Concepci&oacute;n<br/>Fonos: 99818065 &oacute; 79686423<br/>eventos@mundocantaclaro.cl</p>
 <!--  <p>Para mayor información, puedes visitarnos en el siguiente link: XXXXXXXXXXXXXXXXXXXX</p>-->
 </div>

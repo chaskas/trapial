@@ -7,6 +7,8 @@ $(document).ready(function(){
   Cufon.replace('.content-title');
   Cufon.replace('.gallery-title');
   Cufon.replace('h1.lastest-news-h1');
+  Cufon.replace('h1.titulo-equipo');
+  Cufon.replace('h2.titulo-nivel');
 });
 
 $(function(){

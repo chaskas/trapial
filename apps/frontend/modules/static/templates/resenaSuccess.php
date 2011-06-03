@@ -30,12 +30,6 @@
         </p>
       </li>
       <li>
-        <span class="titulo-resena">Visi&oacute;n</span>
-        <p>
-          
-        </p>
-      </li>
-      <li>
         <span class="titulo-resena">Proyecto Metodol&oacute;gico</span>
         <p class="par">
           Nuestra institución ha escogido el tipo integral de modalidad curricular teniendo en cuenta que es la que más nos permite llevar a cabo nuestra misión, escogiendo de las otras modalidades lo que más nos acomode e identifique. Tomando siempre en cuenta algunos lineamientos filosóficos y psicológicos que son nuestro pilar.

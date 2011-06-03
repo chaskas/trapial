@@ -8,6 +8,7 @@ body {
 }
 ul.ev-list {
   margin-left: 50px;
+  list-style: circle;
 }
 li.ev-list {
   margin: 10px 10px;
