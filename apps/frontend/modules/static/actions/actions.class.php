@@ -201,6 +201,9 @@ class staticActions extends sfActions
   public function executeBanos(sfWebRequest $request)
   {
   }
+  public function executeInfraestructura(sfWebRequest $request)
+  {
+  }
   public function executeContact(sfWebRequest $request)
   {
     $this->form = new ContactForm();

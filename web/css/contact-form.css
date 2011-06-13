@@ -11,7 +11,7 @@ a:hover {
   text-decoration: underline;
 }
 #contact {
-  height: 609px;
+  height: 659px;
   position: relative;
 }
 #sendmail {
@@ -27,7 +27,7 @@ a:hover {
   padding: 20px;
   position: absolute;
   right: 20px;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .contact-form-label {
   font: normal 13px/100% "Courier New", Courier, monospace;
@@ -91,7 +91,7 @@ input:hover, textarea:hover, input:focus, textarea:focus {
   float: left;
 }
 img.facebook {
-  margin-left: 80px;
+  margin-left: 100px;
   margin-top: -20px;
 }
 #datos {

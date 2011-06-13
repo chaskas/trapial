@@ -1,6 +1,7 @@
 <?php use_stylesheet('static/espacios'); ?>
 <?php use_javascript('galleria/galleria-1.2.3.min.js') ?>
 <p class="content-title">Nuestras Salas</p>
+<div class="tour-virtual-wrapper">
 <p class="contamos">
   Haga click en el enlace para ver la descripci&oacute;n
 </p>
@@ -17,7 +18,14 @@
 
 <!-- Gatitos -->
 <a name="Gatitos"></a><h1 class="sala-title">Sala Gatitos</h1>
-<p class="contamos">Contamos con blah blah...</p>
+<p class="contamos">Contamos con:</p>
+  <ul>
+    <li>9 cunas</li>
+    <li>Espejo</li>
+    <li>Colchonetas</li>
+    <li>Móviles en cada cuna</li>
+    <li>5 sillas nido para bebés</li>
+  </ul>
 <h2 class="team-title">Equipo Gatitos</h2>
 <div class="equipo">
   <?php foreach($gatitos as $gatito) : ?>
@@ -44,7 +52,7 @@
 
 <!-- Pollitos -->
 <a name="Pollitos"></a><h1 class="sala-title">Sala Pollitos</h1>
-<p class="contamos">Contamos con blah blah...</p>
+
 <h2 class="team-title">Equipo Pollitos</h2>
 <div class="equipo">
   <?php foreach($pollitos as $pollito) : ?>
@@ -71,7 +79,12 @@
 
 <!-- Leones -->
 <a name="Leones"></a><h1 class="sala-title">Sala Leones</h1>
-<p class="contamos">Contamos con blah blah...</p>
+<p class="contamos">Contamos con:</p>
+  <ul>
+    <li>Radio con Cd y micrófono</li>
+    <li>Colchoneta</li>
+    <li>Sala de amamantamiento .- espacio amplio para que las mamás que amamantan lo hagan tranquila e íntimamente</li>
+  </ul>
 <h2 class="team-title">Equipo Leones</h2>
 <div class="equipo">
   <?php foreach($leones as $leon) : ?>
@@ -98,7 +111,7 @@
 
 <!-- Cuncunas -->
 <a name="Cuncunas"></a><h1 class="sala-title">Sala Cuncunas</h1>
-<p class="contamos">Contamos con blah blah...</p>
+
 <h2 class="team-title">Equipo Cuncunas</h2>
 <div class="equipo">
   <?php foreach($cuncunas as $cuncuna) : ?>
@@ -125,7 +138,7 @@
 
 <!-- Ardillas -->
 <a name="Ardillas"></a><h1 class="sala-title">Sala Ardillas</h1>
-<p class="contamos">Contamos con blah blah...</p>
+
 <h2 class="team-title">Equipo Ardillas</h2>
 <div class="equipo">
   <?php foreach($ardillas as $ardilla) : ?>
@@ -152,7 +165,7 @@
 
 <!-- Conejos -->
 <a name="Conejos"></a><h1 class="sala-title">Sala Conejos</h1>
-<p class="contamos">Contamos con blah blah...</p>
+
 <h2 class="team-title">Equipo Conejos</h2>
 <div class="equipo">
   <?php foreach($conejos as $Conejo) : ?>
@@ -179,7 +192,13 @@
 
 <!-- Cachorros -->
 <a name="Cachorros"></a><h1 class="sala-title">Sala Cachorros</h1>
-<p class="contamos">Contamos con blah blah...</p>
+<p class="contamos">Contamos con:</p>
+  <ul>
+    <li>Area de lenguaje</li>
+    <li>Area matemáticas</li>
+    <li>Area Arte</li>
+    <li>Radio CD</li>
+  </ul>
 <h2 class="team-title">Equipo Cachorros</h2>
 <div class="equipo">
   <?php foreach($cachorros as $Cachorro) : ?>
@@ -206,7 +225,14 @@
 
 <!-- Semilla -->
 <a name="Semilla"></a><h1 class="sala-title">Sala Semilla</h1>
-<p class="contamos">Contamos con blah blah...</p>
+<p class="contamos">Contamos con:</p>
+  <ul class="lista-infra">
+    <li>Area Lenguaje</li>
+    <li>Area Matematicas</li>
+    <li>Area Ciencia</li>
+    <li>Area Arte</li>
+    <li>Radio CD</li>
+  </ul>
 <h2 class="team-title">Equipo Semilla</h2>
 <div class="equipo">
   <?php foreach($semillas as $Semilla) : ?>
@@ -228,7 +254,7 @@
        src="/uploads/gallery/1/450/JackelineLarenas.jpg"/>
   </a>
 </div>
-<br/><br/>
+</div>
 <!-- Fin $Semilla -->
 
 <script type="text/javascript">

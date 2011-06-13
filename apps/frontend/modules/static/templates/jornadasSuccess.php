@@ -1,4 +1,6 @@
 <?php use_stylesheet('static/jornadas'); ?>
+<p class="content-title">Jornadas</p>
+<div class="nuestro-jardin-wrapper">
 <div id="jornadas-wrapper">
   <div id="jorn-left">
   Nuestro Jardín cuenta con las siguientes jornadas:
@@ -11,4 +13,5 @@
   <div id="jorn-right">
     <?php echo image_tag('jornadas.jpg','size=312x280'); ?>
   </div>
+</div>
 </div>

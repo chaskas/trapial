@@ -6,10 +6,21 @@ body {
 #ev-wrapper {
   padding: 30px;
 }
-ul.ev-list {
+li.ev-list {
+  list-style-image: url("../../images/Ballon1.png");
+}
+li.ev-list2 {
   margin-left: 50px;
   list-style: circle;
+  list-style-image: url("../../images/Ballon2.png");
 }
-li.ev-list {
+ul.ev-list {
   margin: 10px 10px;
+  margin-left: 100px;
+}
+img.logo {
+    border: 4px solid #FFFFFF;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
 }

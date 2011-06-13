@@ -26,6 +26,7 @@
     <div id="con-pos">
       <div id="container">
         <div id="top-bg">
+          <a name="top"></a>
           <div id="header"></div>
         </div>
         <div id="menu-bg">
@@ -43,7 +44,7 @@
                 <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/resena') ?>" class="subtext menu-yellow">Reseña Hist&oacute;rica</a></p>
                 <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/resena#peduc') ?>" class="subtext menu-yellow">Proyecto Educativo</a></p>
                 <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/familia') ?>" class="subtext menu-yellow">Familia Cantaclariense</a></p>
-                <p class="subtext menu-yellow">&bull;<a href="#" class="subtext menu-yellow">Infraestructura</a></p>
+                <p class="subtext menu-yellow">&bull;<a href="<?php echo url_for('static/infraestructura') ?>" class="subtext menu-yellow">Infraestructura</a></p>
               </li>
               <li id="red" class="menu-aux-class">
                 <p class="menu-spacer"></p>
@@ -76,6 +77,7 @@
           </div>
           <div id="center-bg">
             <?php echo $sf_content; ?>
+            <span><a href="#top" class="top">Volver Arriba</a></span>
           </div>
           <div id="right">
             <div id="right-bg"></div>

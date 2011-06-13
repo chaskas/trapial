@@ -1,6 +1,6 @@
 <?php use_stylesheet('static/resena'); ?>
 <p class="content-title">Reseña Hist&oacute;rica</p>
-
+<div class="nuestro-jardin-wrapper">
 <div id="resena-wrapper">
   <div id="texto">
     <p class="par">En el año 1995 nace el jardín Infantil  “Canta Claro”, atendiendo a niños de dos a seis años en una casa antigua en calle Orompello, en pleno centro de Concepción, que dos años después fue sustituida por un actual edificio. Esto fue una gran oportunidad para ampliar espacios y recibir a más familias, porque llegamos a una casa muy bien ubicada en calle Roosevelt, frente a Hospital Regional y Liceo Experimental. Ahí logramos consolidarnos como “Cantaclaro” y adquirir más protagonismo en el rubro ya que recibimos a recién nacidos en nuestro Nivel de Sala Cuna.  Más tarde, surge la necesidad de asociarse, en el año 2001 con Jardín Infantil “Mi pequeño Pudú” que ya atendía a hijos de funcionarios de Universidad de Concepción …</p>
@@ -43,11 +43,11 @@
           <li><p class="par2">Buscamos que nuestros niños se expresen en forma espontánea, favoreciendo además una temprana sociabilización.</p></li>
           <li><p class="par2">Respetamos sus derechos, personalidades y características propias, así como la de sus familias.</p></li>
           <li><p class="par2">Nos preocupamos de fortalecernos en equipo, entre el personal y junto a los padres y entre los niños y niñas.</p></li>
-          <li><p class="par2">Asistimos y organizamos constantemente actividades artístico-culturales, recreativos, ecológicos y sociales, así como en conjunto con otros jardines.</p></li>
+          <li><p class="par2">Actividades recreativas, ecol&oacute;gicas.</p></li>
         </ul>
 
       </li>
     </ul>
   </div>
 </div>
-<br/><br/>
+</div>

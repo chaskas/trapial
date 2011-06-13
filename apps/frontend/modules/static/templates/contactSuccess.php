@@ -1,13 +1,13 @@
 <?php use_javascript('sendmail.js') ?>
 <?php use_stylesheet('contact-form.css')?>
 <p class="content-title">Escribenos</p>
-<div class="content-wrapper" id="contact">
+<div class="contact-wrapper" id="contact">
 <div id="sendmail"></div>
 <div id="text-contact">
 <ul id="datos">
   <li><b>Direcci&oacute;n:</b> Cochrane 870 y 890, Concepci&oacute;n</li>
   <li><b>Fono/Fax:</b> (041) 2237384</li>
-  <li><b>Email:</b> jardin@mundocantaclaro.cl</li>
+  <li><b>Email:</b> jardin@mundocantaclaro.cl eventos@mundocantaclaro.cl</li>
   <li><b>Sitio Web:</b> <a href="www.mundocantaclaro.cl">www.mundocantaclaro.cl</a></li>
   <li><b>Facebook: </b><br/><?php echo link_to(image_tag('facebook-icon-48x48.png',array('alt' => 'Encuentranos en Facebook', 'size' => '48x48', 'class' => 'facebook','border'=> '0')),'http://www.facebook.com/mundo.cantaclaro',array('target'=>'_blank')); ?></li>
 </ul>
