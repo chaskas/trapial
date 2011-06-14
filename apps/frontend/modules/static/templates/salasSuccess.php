@@ -41,11 +41,11 @@
   <div id="cl"></div>
 </div>
 <div class="galleria">
-  <a href="/uploads/gallery/1/450/JackelineLarenas.jpg">
-  <img title="Jackeline"
-       alt="Jackeline"
-       src="/uploads/gallery/1/450/JackelineLarenas.jpg"/>
-  </a>
+  <a href="/images/gatitos/1.jpg"><img title="Gatitos" alt="Gatitos" src="/images/gatitos/1.jpg"/></a>
+  <a href="/images/gatitos/2.jpg"><img title="Gatitos" alt="Gatitos" src="/images/gatitos/2.jpg"/></a>
+  <a href="/images/gatitos/3.jpg"><img title="Gatitos" alt="Gatitos" src="/images/gatitos/3.jpg"/></a>
+  <a href="/images/gatitos/4.jpg"><img title="Gatitos" alt="Gatitos" src="/images/gatitos/4.jpg"/></a>
+  <a href="/images/gatitos/5.jpg"><img title="Gatitos" alt="Gatitos" src="/images/gatitos/5.jpg"/></a>
 </div>
 <br/><br/>
 <!-- Fin Gatitos -->
@@ -68,11 +68,11 @@
   <div id="cl"></div>
 </div>
 <div class="galleria">
-  <a href="/uploads/gallery/1/450/JackelineLarenas.jpg">
-  <img title="Jackeline"
-       alt="Jackeline"
-       src="/uploads/gallery/1/450/JackelineLarenas.jpg"/>
-  </a>
+  <a href="/images/pollitos/1.jpg"><img title="Pollitos" alt="Pollitos" src="/images/pollitos/1.jpg"/></a>
+  <a href="/images/pollitos/2.jpg"><img title="Pollitos" alt="Pollitos" src="/images/pollitos/2.jpg"/></a>
+  <a href="/images/pollitos/3.jpg"><img title="Pollitos" alt="Pollitos" src="/images/pollitos/3.jpg"/></a>
+  <a href="/images/pollitos/4.jpg"><img title="Pollitos" alt="Pollitos" src="/images/pollitos/4.jpg"/></a>
+  <a href="/images/pollitos/5.jpg"><img title="Pollitos" alt="Pollitos" src="/images/pollitos/5.jpg"/></a>
 </div>
 <br/><br/>
 <!-- Fin Pollitos -->
@@ -100,11 +100,13 @@
   <div id="cl"></div>
 </div>
 <div class="galleria">
-  <a href="/uploads/gallery/1/450/JackelineLarenas.jpg">
-  <img title="Jackeline"
-       alt="Jackeline"
-       src="/uploads/gallery/1/450/JackelineLarenas.jpg"/>
-  </a>
+  <a href="/images/leones/1.jpg"><img title="Leones" alt="Leones" src="/images/leones/1.jpg"/></a>
+  <a href="/images/leones/2.jpg"><img title="Leones" alt="Leones" src="/images/leones/2.jpg"/></a>
+  <a href="/images/leones/3.jpg"><img title="Leones" alt="Leones" src="/images/leones/3.jpg"/></a>
+  <a href="/images/leones/4.jpg"><img title="Leones" alt="Leones" src="/images/leones/4.jpg"/></a>
+  <a href="/images/leones/5.jpg"><img title="Leones" alt="Leones" src="/images/leones/5.jpg"/></a>
+  <a href="/images/leones/6.jpg"><img title="Leones" alt="Leones" src="/images/leones/6.jpg"/></a>
+  <a href="/images/leones/7.jpg"><img title="Leones" alt="Leones" src="/images/leones/7.jpg"/></a>
 </div>
 <br/><br/>
 <!-- Fin Leones -->
@@ -127,11 +129,13 @@
   <div id="cl"></div>
 </div>
 <div class="galleria">
-  <a href="/uploads/gallery/1/450/JackelineLarenas.jpg">
-  <img title="Jackeline"
-       alt="Jackeline"
-       src="/uploads/gallery/1/450/JackelineLarenas.jpg"/>
-  </a>
+  <a href="/images/cuncunas/1.jpg"><img title="Baños" alt="Baños" src="/images/cuncunas/1.jpg"/></a>
+  <a href="/images/cuncunas/2.jpg"><img title="Baños" alt="Baños" src="/images/cuncunas/2.jpg"/></a>
+  <a href="/images/cuncunas/3.jpg"><img title="Baños" alt="Baños" src="/images/cuncunas/3.jpg"/></a>
+  <a href="/images/cuncunas/4.jpg"><img title="Baños" alt="Baños" src="/images/cuncunas/4.jpg"/></a>
+  <a href="/images/cuncunas/5.jpg"><img title="Baños" alt="Baños" src="/images/cuncunas/5.jpg"/></a>
+  <a href="/images/cuncunas/6.jpg"><img title="Baños" alt="Baños" src="/images/cuncunas/6.jpg"/></a>
+  <a href="/images/cuncunas/7.jpg"><img title="Baños" alt="Baños" src="/images/cuncunas/7.jpg"/></a>
 </div>
 <br/><br/>
 <!-- Fin Cuncunas -->
@@ -154,11 +158,12 @@
   <div id="cl"></div>
 </div>
 <div class="galleria">
-  <a href="/uploads/gallery/1/450/JackelineLarenas.jpg">
-  <img title="Jackeline"
-       alt="Jackeline"
-       src="/uploads/gallery/1/450/JackelineLarenas.jpg"/>
-  </a>
+  <a href="/images/ardillas/1.jpg"><img title="Ardillas" alt="Ardillas" src="/images/ardillas/1.jpg"/></a>
+  <a href="/images/ardillas/2.jpg"><img title="Ardillas" alt="Ardillas" src="/images/ardillas/2.jpg"/></a>
+  <a href="/images/ardillas/3.jpg"><img title="Ardillas" alt="Ardillas" src="/images/ardillas/3.jpg"/></a>
+  <a href="/images/ardillas/4.jpg"><img title="Ardillas" alt="Ardillas" src="/images/ardillas/4.jpg"/></a>
+  <a href="/images/ardillas/5.jpg"><img title="Ardillas" alt="Ardillas" src="/images/ardillas/5.jpg"/></a>
+  <a href="/images/ardillas/6.jpg"><img title="Ardillas" alt="Ardillas" src="/images/ardillas/6.jpg"/></a>
 </div>
 <br/><br/>
 <!-- Fin Ardillas -->
@@ -181,11 +186,19 @@
   <div id="cl"></div>
 </div>
 <div class="galleria">
-  <a href="/uploads/gallery/1/450/JackelineLarenas.jpg">
-  <img title="Jackeline"
-       alt="Jackeline"
-       src="/uploads/gallery/1/450/JackelineLarenas.jpg"/>
-  </a>
+  <a href="/images/conejos/1.jpg"><img title="conejos" alt="conejos" src="/images/conejos/1.jpg"/></a>
+  <a href="/images/conejos/2.jpg"><img title="conejos" alt="conejos" src="/images/conejos/2.jpg"/></a>
+  <a href="/images/conejos/3.jpg"><img title="conejos" alt="conejos" src="/images/conejos/3.jpg"/></a>
+  <a href="/images/conejos/4.jpg"><img title="conejos" alt="conejos" src="/images/conejos/4.jpg"/></a>
+  <a href="/images/conejos/5.jpg"><img title="conejos" alt="conejos" src="/images/conejos/5.jpg"/></a>
+  <a href="/images/conejos/6.jpg"><img title="conejos" alt="conejos" src="/images/conejos/6.jpg"/></a>
+  <a href="/images/conejos/7.jpg"><img title="conejos" alt="conejos" src="/images/conejos/7.jpg"/></a>
+  <a href="/images/conejos/8.jpg"><img title="conejos" alt="conejos" src="/images/conejos/8.jpg"/></a>
+  <a href="/images/conejos/8.jpg"><img title="conejos" alt="conejos" src="/images/conejos/8.jpg"/></a>
+  <a href="/images/conejos/9.jpg"><img title="conejos" alt="conejos" src="/images/conejos/9.jpg"/></a>
+  <a href="/images/conejos/10.jpg"><img title="conejos" alt="conejos" src="/images/conejos/10.jpg"/></a>
+  <a href="/images/conejos/11.jpg"><img title="conejos" alt="conejos" src="/images/conejos/11.jpg"/></a>
+  <a href="/images/conejos/12.jpg"><img title="conejos" alt="conejos" src="/images/conejos/12.jpg"/></a>
 </div>
 <br/><br/>
 <!-- Fin Conejos -->
@@ -214,11 +227,12 @@
   <div id="cl"></div>
 </div>
 <div class="galleria">
-  <a href="/uploads/gallery/1/450/JackelineLarenas.jpg">
-  <img title="Jackeline"
-       alt="Jackeline"
-       src="/uploads/gallery/1/450/JackelineLarenas.jpg"/>
-  </a>
+  <a href="/images/cachorros/1.jpg"><img title="Cachorros" alt="Cachorros" src="/images/cachorros/1.jpg"/></a>
+  <a href="/images/cachorros/2.jpg"><img title="Cachorros" alt="Cachorros" src="/images/cachorros/2.jpg"/></a>
+  <a href="/images/cachorros/3.jpg"><img title="Cachorros" alt="Cachorros" src="/images/cachorros/3.jpg"/></a>
+  <a href="/images/cachorros/4.jpg"><img title="Cachorros" alt="Cachorros" src="/images/cachorros/4.jpg"/></a>
+  <a href="/images/cachorros/5.jpg"><img title="Cachorros" alt="Cachorros" src="/images/cachorros/5.jpg"/></a>
+  <a href="/images/cachorros/6.jpg"><img title="Cachorros" alt="Cachorros" src="/images/cachorros/6.jpg"/></a>
 </div>
 <br/><br/>
 <!-- Fin Cachorros -->
@@ -248,11 +262,11 @@
   <div id="cl"></div>
 </div>
 <div class="galleria">
-  <a href="/uploads/gallery/1/450/JackelineLarenas.jpg">
-  <img title="Jackeline"
-       alt="Jackeline"
-       src="/uploads/gallery/1/450/JackelineLarenas.jpg"/>
-  </a>
+  <a href="/images/semilla/1.jpg"><img title="Semilla" alt="Semilla" src="/images/semilla/1.jpg"/></a>
+  <a href="/images/semilla/2.jpg"><img title="Semilla" alt="Semilla" src="/images/semilla/2.jpg"/></a>
+  <a href="/images/semilla/3.jpg"><img title="Semilla" alt="Semilla" src="/images/semilla/3.jpg"/></a>
+  <a href="/images/semilla/4.jpg"><img title="Semilla" alt="Semilla" src="/images/semilla/4.jpg"/></a>
+  <a href="/images/semilla/5.jpg"><img title="Semilla" alt="Semilla" src="/images/semilla/5.jpg"/></a>
 </div>
 </div>
 <!-- Fin $Semilla -->

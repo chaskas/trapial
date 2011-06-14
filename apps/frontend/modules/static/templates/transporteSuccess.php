@@ -10,5 +10,9 @@
     <li class="trans-list">Vehículo nuevo con todos sus permisos al día.</li>
     <li class="trans-list">Contacto permanente a los fonos:  (041)  2237384  o al (09) 61906110 (Movistar)</li>
   </ul>
+  <br/><br/>
+  <center>
+  <?php echo image_tag('VAN2.jpg'); ?>
+  </center>
 </div>
   </div
