@@ -90,7 +90,7 @@
         <div id="footer-menu">
           <div id="footer"></div>
           <div id="copyright">
-              <a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="22" width="62" style="border: 0px;"/></a>
+              <small>&#169; Copyright 2011 | Powered by <a href="http://www.webdevel.cl" class="copyright" target="_blank">WebDevel.cl</a></small>
           </div>
         </div>
       </div>

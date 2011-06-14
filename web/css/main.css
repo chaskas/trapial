@@ -137,14 +137,14 @@ html, body {
 #copyright {
   text-align: center;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 9pt;
   color: #191919;
 }
 a.copyright {
   text-align: center;
   font-family: sans-serif;
-  font-size: 9px;
-  color: #464646;
+  font-size: 9pt;
+  color: #191919;
 }
 #leftSide {
   width: 709px;
