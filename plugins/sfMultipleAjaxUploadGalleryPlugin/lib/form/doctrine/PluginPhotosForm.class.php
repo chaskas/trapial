@@ -17,7 +17,7 @@ abstract class PluginPhotosForm extends BasePhotosForm
         $this->removeFields();
 
         $this->widgetSchema->setLabels(array(
-                    'title' => 'Titre :',
+                    'title' => 'Titulo :',
                     'picpath' => 'Chemin <em>*</em>:',
         ));
         $path_gallery = sfConfig::get("app_sfMultipleAjaxUploadGalleryPlugin_path_gallery");

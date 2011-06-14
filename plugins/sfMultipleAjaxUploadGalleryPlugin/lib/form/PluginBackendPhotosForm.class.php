@@ -6,7 +6,7 @@ class PluginBackendPhotosForm extends PluginPhotosForm {
 
         $this->removeFields();
         $this->widgetSchema->setLabels(array(
-                'title' => 'Titre :',
+                'title' => 'Titulo :',
                 'gallery_id' => 'Album :',
         ));
         $this->widgetSchema['picpath'] = new sfWidgetFormInputFile(array('label' => 'Image'));
