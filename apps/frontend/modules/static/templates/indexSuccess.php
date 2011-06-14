@@ -66,9 +66,13 @@
       </ul>
     </div>
     <div id="random-photo-wrapper">
+      <br/>
       <h2 class="title-photo-random">
-        Fotograf&iacute;as
+        &Uacute;ltimas Fotos añadidas
       </h2>
+      <div id="photo-wrapper">
+      <?php include_component('static', 'randomPhotos') ?>
+      </div>
     </div>
   </div>
   <div id="sideBar">

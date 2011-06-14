@@ -11,4 +11,11 @@ class staticComponents extends sfComponents
       ->limit(4)
       ->execute();
   }
+  public function executeRandomPhotos()
+  {
+    $this->galleries = Doctrine_Core::getTable('Gallery')
+            ->createQuery()
+            ->orderBy('RAND()')
+            ->fetchOne();
+  }
 }

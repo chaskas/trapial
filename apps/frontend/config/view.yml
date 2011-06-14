@@ -14,7 +14,13 @@ default:
 
   stylesheets:    [main.css,menu.css,nivo-slider.css,redmond/jquery-ui-1.8.11.custom.css]
 
-  javascripts:    [jquery-1.5.1.js,jquery-ui-1.8.11.custom.min.js,jquery.easing.1.3.js,menu.js,trapial.js,cufon-yui.js,A_Safe_Place_to_Fall_400.font.js]
+  javascripts:    
+      - jquery-1.5.1.js
+      - jquery-ui-1.8.11.custom.min.js
+      - jquery.easing.1.3.js,menu.js
+      - trapial.js
+      - cufon-yui.js
+      - A_Safe_Place_to_Fall_400.font.js
 
   has_layout:     true
   layout:         layout
