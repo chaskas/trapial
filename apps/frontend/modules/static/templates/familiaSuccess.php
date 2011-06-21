@@ -34,7 +34,7 @@
   </div>
 </div>
 <?php endforeach; ?>
-
+<span><a href="#top" class="top">Volver Arriba</a></span>
 
 <h2 class="titulo-nivel">Pollitos (Nivel Sala cuna Intermedia)</h2>&nbsp;<?php echo image_tag('niveles/PNG150/Pollito.png','alt=Pollitos class=icono'); ?><br/><br/>
 <?php foreach ($pollitos as $pollito): ?>
@@ -49,6 +49,7 @@
   </div>
 </div>
 <?php endforeach; ?>
+<span><a href="#top" class="top">Volver Arriba</a></span>
 
 
 <h2 class="titulo-nivel">Leones (Nivel Sala cuna Mayor)</h2>&nbsp;<?php echo image_tag('niveles/PNG150/Leon.png','alt=Leones class=icono'); ?><br/><br/>
@@ -64,7 +65,7 @@
   </div>
 </div>
 <?php endforeach; ?>
-
+<span><a href="#top" class="top">Volver Arriba</a></span>
 
 <h2 class="titulo-nivel">Cuncunas (Nivel Medio menor I)</h2>&nbsp;<?php echo image_tag('niveles/PNG150/Cuncuna.png','alt=Cuncunas class=icono'); ?><br/><br/>
 <?php foreach ($cuncunas as $cuncuna): ?>
@@ -79,7 +80,7 @@
   </div>
 </div>
 <?php endforeach; ?>
-
+<span><a href="#top" class="top">Volver Arriba</a></span>
 
 <h2 class="titulo-nivel">Ardillas (Nivel Medio menor II)</h2>&nbsp;<?php echo image_tag('niveles/PNG150/Ardilla.png','alt=Ardillas class=icono'); ?><br/><br/>
 <?php foreach ($ardillas as $ardilla): ?>
@@ -94,7 +95,7 @@
   </div>
 </div>
 <?php endforeach; ?>
-
+<span><a href="#top" class="top">Volver Arriba</a></span>
 
 <h2 class="titulo-nivel">Conejos (Nivel Medio mayor I)</h2>&nbsp;<?php echo image_tag('niveles/PNG150/Conejo.png','alt=Conejos class=icono'); ?><br/><br/>
 <?php foreach ($conejos as $conejo): ?>
@@ -109,7 +110,7 @@
   </div>
 </div>
 <?php endforeach; ?>
-
+<span><a href="#top" class="top">Volver Arriba</a></span>
 
 <h2 class="titulo-nivel">Cachorros (Nivel Medio mayor II)</h2>&nbsp;<?php echo image_tag('niveles/PNG150/Perro.png','alt=Cachorros class=icono'); ?><br/><br/>
 <?php foreach ($cachorros as $cachorro): ?>
@@ -124,7 +125,7 @@
   </div>
 </div>
 <?php endforeach; ?>
-
+<span><a href="#top" class="top">Volver Arriba</a></span>
 
 <h2 class="titulo-nivel">Semilla (Nivel Especial)</h2>&nbsp;<?php echo image_tag('niveles/PNG150/Nuez.png','alt=Semillas class=icono'); ?><br/><br/>
 <?php foreach ($semillas as $semilla): ?>
@@ -139,6 +140,7 @@
   </div>
 </div>
 <?php endforeach; ?>
+<span><a href="#top" class="top">Volver Arriba</a></span>
 
 <h1 class="titulo-equipo">Equipo de Apoyo</h1>
 <?php foreach ($apoyos as $apoyo): ?>

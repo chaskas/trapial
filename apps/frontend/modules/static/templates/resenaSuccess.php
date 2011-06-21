@@ -11,7 +11,7 @@
 
   </div>
 </div>
-
+<span><a href="#top" class="top">Volver Arriba</a></span>
 <a name="peduc"></a><p class="content-title">Proyecto Educativo</p>
 
 <div id="resena-wrapper">

@@ -24,7 +24,6 @@
   <ul class="lista-infra">
     <li>Radio con Cd y micrófono</li>
     <li>Colchoneta</li>
-    <li>Sala de amamantamiento .- espacio amplio para que las mamás que amamantan lo hagan tranquila e íntimamente</li>
   </ul>
   
   <br/>
@@ -45,6 +44,14 @@
     <li>Area Arte</li>
     <li>Radio CD</li>
   </ul>
+
+  <br/>
+  <h1 class="titulo-equipo">Sala de amamantamiento</h1>
+  <ul class="lista-infra">
+    <li>Espacio amplio para que las mamás que amamantan lo hagan tranquila e íntimamente</li>
+  </ul>
   
+  <br/>
+  <p>Contamos tambi&eacute;n con Data show, Proyector y Telón, Amplificación para eventos y actos, entre otros...</p>
 </div>
 </div>
