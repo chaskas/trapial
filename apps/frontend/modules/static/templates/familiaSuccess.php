@@ -97,7 +97,7 @@
 <?php endforeach; ?>
 <div class="cb"><span><a href="#top" class="top">Volver Arriba</a></span></div>
 
-<h2 class="titulo-nivel">Conejos (Nivel Medio mayor I)</h2>&nbsp;<?php echo image_tag('niveles/PNG150/Conejo.png','alt=Conejos class=icono'); ?><br/><br/>
+<h2 class="titulo-nivel">Conejos (Nivel Medio mayor I)</h2>&nbsp;<?php echo image_tag('niveles/PNG150/Conejo.png','alt=Conejos class=icono size=170x105'); ?><br/><br/>
 <?php foreach ($conejos as $conejo): ?>
 <div class="equipo">
   <div class="foto-wrapper">
