@@ -669,3 +669,6 @@ div.tour-virtual-wrapper {
   margin: 20px;
   min-height: 679px;
 }
+.cb {
+  clear: both;
+}
