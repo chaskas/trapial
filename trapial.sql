@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.1.54, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.1.41, for debian-linux-gnu (i486)
 --
 -- Host: localhost    Database: trapial
 -- ------------------------------------------------------
--- Server version	5.1.54-1ubuntu4
+-- Server version	5.1.41-3ubuntu12.10
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -32,7 +32,7 @@ CREATE TABLE `gallery` (
   `slug` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `gallery_sluggable_idx` (`slug`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,7 +41,7 @@ CREATE TABLE `gallery` (
 
 LOCK TABLES `gallery` WRITE;
 /*!40000 ALTER TABLE `gallery` DISABLE KEYS */;
-INSERT INTO `gallery` VALUES (1,'Test','',0,'2011-05-26 10:02:13','2011-05-26 10:02:40','test'),(2,'Tests','',0,'2011-06-13 23:51:41','2011-06-13 23:51:41','tests');
+INSERT INTO `gallery` VALUES (1,'swdf','',0,'2011-07-05 02:39:01','2011-07-05 02:39:01','swdf');
 /*!40000 ALTER TABLE `gallery` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -65,7 +65,7 @@ CREATE TABLE `photos` (
   UNIQUE KEY `photos_sluggable_idx` (`slug`),
   KEY `gallery_id_idx` (`gallery_id`),
   CONSTRAINT `photos_gallery_id_gallery_id` FOREIGN KEY (`gallery_id`) REFERENCES `gallery` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -74,7 +74,6 @@ CREATE TABLE `photos` (
 
 LOCK TABLES `photos` WRITE;
 /*!40000 ALTER TABLE `photos` DISABLE KEYS */;
-INSERT INTO `photos` VALUES (1,'','AlejandraGarciaCrisosto.jpg',1,1,'2011-05-26 10:02:27','2011-05-26 10:02:27','alejandragarciacrisosto-jpg1306418547'),(2,'','ConstanzaRiveraSilva.jpg',1,0,'2011-05-26 10:02:28','2011-05-26 10:02:28','constanzariverasilva-jpg1306418548'),(3,'','DanielaJaraVelazquez.jpg',1,0,'2011-05-26 10:02:28','2011-05-26 10:02:28','danielajaravelazquez-jpg1306418548'),(4,'','DoloresMirandaBurgos.jpg',1,0,'2011-05-26 10:02:29','2011-05-26 10:02:29','doloresmirandaburgos-jpg1306418549'),(5,'','EducadorasDeParvulo3roSantoTomas.jpg',1,0,'2011-05-26 10:02:30','2011-05-26 10:02:30','educadorasdeparvulo3rosantotomas-jpg1306418550'),(6,'','ElenaSanchezMella.jpg',1,0,'2011-05-26 10:02:31','2011-05-26 10:02:31','elenasanchezmella-jpg1306418551'),(7,'','IngridCavieresDearruoy.jpg',1,0,'2011-05-26 10:02:31','2011-05-26 10:02:31','ingridcavieresdearruoy-jpg1306418551'),(8,'','JackelineLarenas.jpg',1,0,'2011-05-26 10:02:32','2011-05-26 10:02:32','jackelinelarenas-jpg1306418552'),(9,'','JaniraSilvaRios.jpg',1,0,'2011-05-26 10:02:33','2011-05-26 10:02:33','janirasilvarios-jpg1306418553'),(10,'','JocelynAlarcon.jpg',1,0,'2011-05-26 10:02:34','2011-05-26 10:02:34','jocelynalarcon-jpg1306418554'),(11,'','KarenReese.jpg',1,0,'2011-05-26 10:02:35','2011-05-26 10:02:35','karenreese-jpg1306418555'),(12,'','KatherineSaezGodoy.jpg',1,0,'2011-05-26 10:02:35','2011-05-26 10:02:35','katherinesaezgodoy-jpg1306418555'),(13,'','LaviniaSandoval.jpg',1,0,'2011-05-26 10:02:36','2011-05-26 10:02:36','laviniasandoval-jpg1306418556'),(14,'','PB296368.JPG',2,1,'2011-06-13 23:52:38','2011-06-13 23:52:38','pb296368-jpg1308023558'),(15,'','PB296369.JPG',2,0,'2011-06-13 23:52:42','2011-06-13 23:52:42','pb296369-jpg1308023562'),(16,'','PB296370.JPG',2,0,'2011-06-13 23:52:45','2011-06-13 23:52:45','pb296370-jpg1308023565'),(17,'','PB296371.JPG',2,0,'2011-06-13 23:52:49','2011-06-13 23:52:49','pb296371-jpg1308023569'),(18,'','PB296372.JPG',2,0,'2011-06-13 23:52:52','2011-06-13 23:52:52','pb296372-jpg1308023572'),(19,'','PB296373.JPG',2,0,'2011-06-13 23:52:56','2011-06-13 23:52:56','pb296373-jpg1308023576'),(20,'','PB296374.JPG',2,0,'2011-06-13 23:52:59','2011-06-13 23:52:59','pb296374-jpg1308023579'),(21,'','PB296375.JPG',2,0,'2011-06-13 23:53:02','2011-06-13 23:53:02','pb296375-jpg1308023582'),(22,'','PB296376.JPG',2,0,'2011-06-13 23:53:05','2011-06-13 23:53:05','pb296376-jpg1308023585'),(23,'','PB296377.JPG',2,0,'2011-06-13 23:53:09','2011-06-13 23:53:09','pb296377-jpg1308023589'),(24,'','PB296378.JPG',2,0,'2011-06-13 23:53:12','2011-06-13 23:53:12','pb296378-jpg1308023592'),(25,'','PB296379.JPG',2,0,'2011-06-13 23:53:17','2011-06-13 23:53:17','pb296379-jpg1308023597');
 /*!40000 ALTER TABLE `photos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -131,7 +130,7 @@ CREATE TABLE `sf_guard_group` (
 
 LOCK TABLES `sf_guard_group` WRITE;
 /*!40000 ALTER TABLE `sf_guard_group` DISABLE KEYS */;
-INSERT INTO `sf_guard_group` VALUES (1,'admin','Administrator group','2011-05-25 19:33:06','2011-05-25 19:33:06');
+INSERT INTO `sf_guard_group` VALUES (1,'admin','Administrator group','2011-07-05 01:55:52','2011-07-05 01:55:52');
 /*!40000 ALTER TABLE `sf_guard_group` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -160,7 +159,7 @@ CREATE TABLE `sf_guard_group_permission` (
 
 LOCK TABLES `sf_guard_group_permission` WRITE;
 /*!40000 ALTER TABLE `sf_guard_group_permission` DISABLE KEYS */;
-INSERT INTO `sf_guard_group_permission` VALUES (1,1,'2011-05-25 19:33:06','2011-05-25 19:33:06');
+INSERT INTO `sf_guard_group_permission` VALUES (1,1,'2011-07-05 01:55:52','2011-07-05 01:55:52');
 /*!40000 ALTER TABLE `sf_guard_group_permission` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -188,7 +187,7 @@ CREATE TABLE `sf_guard_permission` (
 
 LOCK TABLES `sf_guard_permission` WRITE;
 /*!40000 ALTER TABLE `sf_guard_permission` DISABLE KEYS */;
-INSERT INTO `sf_guard_permission` VALUES (1,'admin','Administrator permission','2011-05-25 19:33:06','2011-05-25 19:33:06');
+INSERT INTO `sf_guard_permission` VALUES (1,'admin','Administrator permission','2011-07-05 01:55:52','2011-07-05 01:55:52');
 /*!40000 ALTER TABLE `sf_guard_permission` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -246,7 +245,7 @@ CREATE TABLE `sf_guard_user` (
   UNIQUE KEY `email_address` (`email_address`),
   UNIQUE KEY `username` (`username`),
   KEY `is_active_idx_idx` (`is_active`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -255,7 +254,7 @@ CREATE TABLE `sf_guard_user` (
 
 LOCK TABLES `sf_guard_user` WRITE;
 /*!40000 ALTER TABLE `sf_guard_user` DISABLE KEYS */;
-INSERT INTO `sf_guard_user` VALUES (1,'Rodrigo','Campos','mr.chaskas@gmail.com','admin','sha1','5f497664731801d48e1ab7687486135c','f7e0da1f051804409cba1f9d41af071398f113bf',1,1,'2011-06-13 23:51:23','2011-05-25 19:33:06','2011-06-13 23:51:23'),(2,'Test','User','test@test.com','test','sha1','01fd4c6e64bdbc84e332ce171ee04026','334d5afdf541bbbcecd841ead7a8577c440792b3',1,0,'2011-06-07 12:16:35','2011-05-25 19:33:06','2011-06-07 12:16:35');
+INSERT INTO `sf_guard_user` VALUES (2,'Rodrigo','Campos','mr.chaskas@gmail.com','admin','sha1','1135752f4408b5d06995124277020ed0','6e5acd7f5e4885c073f4027cca822efdd86251b4',1,1,'2011-07-05 01:56:06','2011-07-05 01:55:52','2011-07-05 01:56:06'),(3,'Test','User','test@test.com','test','sha1','2f8c6c6f555f11b480c388cfcc104cf5','f0daf9d5f3cc0f8ebd8344368bc94f5d90c251d7',1,0,NULL,'2011-07-05 01:55:52','2011-07-05 01:55:52');
 /*!40000 ALTER TABLE `sf_guard_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -284,7 +283,7 @@ CREATE TABLE `sf_guard_user_group` (
 
 LOCK TABLES `sf_guard_user_group` WRITE;
 /*!40000 ALTER TABLE `sf_guard_user_group` DISABLE KEYS */;
-INSERT INTO `sf_guard_user_group` VALUES (1,1,'2011-05-25 19:33:06','2011-05-25 19:33:06');
+INSERT INTO `sf_guard_user_group` VALUES (2,1,'2011-07-05 01:55:52','2011-07-05 01:55:52');
 /*!40000 ALTER TABLE `sf_guard_user_group` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -393,7 +392,7 @@ CREATE TABLE `trapial_employee` (
   `team` text NOT NULL,
   `nivel` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=54 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -402,7 +401,6 @@ CREATE TABLE `trapial_employee` (
 
 LOCK TABLES `trapial_employee` WRITE;
 /*!40000 ALTER TABLE `trapial_employee` DISABLE KEYS */;
-INSERT INTO `trapial_employee` VALUES (28,'Ximena','Espinosa Gonzalez','Educadora de Párvulos','Directora Institucional','810593dbbae0b6e57255a490d6c3c51d69a41f9d.jpg','0','0'),(30,'Ximena','Gonzalez Escobar','Administradora','Representante Legal y Directora de Gestión de Finanzas','bef9329470c1a5bf12b7685af28bfcec4d8d1c94.jpg','0','5'),(31,'Lavinia','Sandoval','','Manipuladora de Alimentos','adec7fa214a7ee5731ac1c02ad9f8b799f4e6fbd.jpg','2','0'),(32,'Ingrid','Cavieres Dearruoy','','Secretaría Administrativa','d700e442db8741c7a524a2aec48ce2a57234615f.jpg','0','0'),(33,'Karen','Resse','','Asistente','368565f9b01b6c3784123d3bf07fbffd06cd17ff.jpg','1','0'),(34,'Constanza','Rivera Silva','','Asistente','c06d7a2e1bf54089f89be520b2677d2ef187bf37.jpg','1','0'),(35,'Yasna','Toledo','','Educadora','fc218732df83aa7797a2026e84c69e6f2dcb2a06.jpg','1','1'),(36,'Pamela','Diaz Utreras','','Asistente','03253a87aa00b08673484fd028ab140ef1d1c6bc.jpg','1','1'),(37,'Tamara','Muñoz','','Asistente','4959144858578862d898a1246fa466ca04e14067.jpg','1','1'),(38,'Marjorie','Araya Toledo','','Educadora','51d9c8ba2e6bb3c7c2b98de2fa4710e577df229b.jpg','1','2'),(39,'Viviana','Herrera Silva','','Asistente','6acf68257de89767a018d265c8bbe15a98899563.jpg','1','2'),(40,'Jocelyn','Alarcon','','Asistente','33966788e2915d70b6db14142cacefd9d0f4d3b1.jpg','1','2'),(41,'Nadia','Mardones Gonzalez','','Educadora','dfb8b17e41365d16d0aa0761f386f18936ae2629.jpg','1','3'),(42,'Valeria','Salazar Jaramillo','','Asistente','7baa42ad6eb658b63808512b4d03b2e582e2ecfd.jpg','1','3'),(43,'Katherine','Saez Godoy','','Asistente','b2c7ddeeb5527bf5c56c5224985fe037b2ade8c6.jpg','1','3'),(44,'Janira','Silva Rios','','Educadora','da6c9927a3d73ab9853c80a49bb43f3581f4d493.jpg','1','4'),(45,'Elena','Sanchez Mella','','Asistente','6664060f2e4411867a466a6c20db20a7a31b5bf4.jpg','1','4'),(46,'Alejandra','Garcia Crisosto','','Educadora','ea2239a2a166c7d8b8a71a4e22b76297be497033.jpg','1','5'),(47,'Dolores','Miranda Burgos','','Asistente','1047b917d57e114cac9abdf15f68cc14d18ec19d.jpg','1','5'),(48,'Sandra','Rojas Coloma','','Educadora','b21f4a8b7396eb5c99b5fd400c43a0079962dd57.jpg','1','6'),(49,'Daniela','Jara Velasquez','','Asistente','2bc1c479e2d49535a43b24550e8cdf2bfb953af6.jpg','1','6'),(50,'Maricel','Burboa Parra','','Educadora','6577cb066db98f6d259ee0a5d276e48d8600da3d.jpg','1','7'),(51,'Regina','Lobos','','Auxiliar de Aseo','68ba5a0243488f28138df425362f925dc05e29e0.jpg','2','0'),(52,'Tamara','Muñoz','','Asistente de Furgón','b28003e85c8b84d73b977d729cd9f9c6a28526f4.jpg','2','0'),(53,'Constanza','Rivera','','Asistente de Furgón','82aa8f749e21c87bee6b9e50eafd971be20c2c18.jpg','2','0');
 /*!40000 ALTER TABLE `trapial_employee` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -417,6 +415,7 @@ CREATE TABLE `trapial_posts` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `post_content` longtext NOT NULL,
   `post_title` text NOT NULL,
+  `post_file` text,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   `created_by` bigint(20) DEFAULT NULL,
@@ -426,7 +425,7 @@ CREATE TABLE `trapial_posts` (
   KEY `updated_by_idx` (`updated_by`),
   CONSTRAINT `trapial_posts_created_by_sf_guard_user_id` FOREIGN KEY (`created_by`) REFERENCES `sf_guard_user` (`id`) ON DELETE CASCADE,
   CONSTRAINT `trapial_posts_updated_by_sf_guard_user_id` FOREIGN KEY (`updated_by`) REFERENCES `sf_guard_user` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -435,7 +434,7 @@ CREATE TABLE `trapial_posts` (
 
 LOCK TABLES `trapial_posts` WRITE;
 /*!40000 ALTER TABLE `trapial_posts` DISABLE KEYS */;
-INSERT INTO `trapial_posts` VALUES (2,'<p><span style=\"font-family: \'trebuchet ms\', geneva;\"><em><span style=\"font-size: medium;\">Los delantales y buzos para el Jard&iacute;n se encargan en BARROS ARANA 514, LOCAL 7, FONO 2251611, Galer&iacute;a Catedral, Concepci&oacute;n.</span></em></span></p>','Delantales y Buzos','2011-05-25 19:33:06','2011-06-07 12:30:47',NULL,2),(3,'<p><em><span style=\"font-size: medium; font-family: \'trebuchet ms\', geneva;\">Nuestras nuevas dependencias de nuestro Jard&iacute;n, cuenta ahora con un grupo&nbsp; de profesionales en el tercer piso llamado CICCA, que cuenta con psic&oacute;logas, fonoaudi&oacute;logas, psicopedagogas y orientaci&oacute;n familiar. As&iacute; es que cualquier consulta pueden dirigirse a los fonos: 762 46 492 - 919 203 93 o al correo centrointegralcicca@gmail.com o visitar el sitio: www.wix.com/centrointegralcicca/centrointegral.</span></em></p>','Atención personalizada de profesionales','2011-05-31 19:21:09','2011-06-07 12:30:11',1,2),(4,'<p style=\"margin-bottom: 0cm;\" align=\"JUSTIFY\"><span style=\"font-size: medium;\"><span style=\"font-family: \'MV Boli\';\">En el segundo piso del nuevo edificio, se encuentra funcionando el Centro M&eacute;dico y Dental, que atiende especialidades de Medicina General, Kinesiolog&iacute;a y Odontolog&iacute;a Adultos, para quienes quieran hacer las consultas, el fono es: 317 46 32...</span></span></p>','Nuevo Centro Médico en nuestras dependencias','2011-05-31 19:46:57','2011-06-07 12:29:39',1,2),(5,'<p style=\"margin-bottom: 0cm;\" align=\"JUSTIFY\"><span style=\"font-family: \'MV Boli\'; font-size: medium;\">Para los pap&aacute;s que necesiten para sus hijos dentista infantil y adultos, en la oficina que est&aacute; en una esquina de nuestras nuevas dependencias, se instal&oacute; <strong>NovelDent Odont&oacute;logo Infantil y Adultos Jonathan Rubilar</strong>, que ya est&aacute; atendendiendo. Ofrece presupuesto gratuito!!! Para mayor informaci&oacute;n contactarse a los fonos: 323 91 66 &oacute; m&oacute;vil 92591215.</span></p>','Odontología Infantil abrió sus puertas para atención personalizada!!!!','2011-05-31 19:53:32','2011-06-07 12:29:23',1,2);
+INSERT INTO `trapial_posts` VALUES (1,'Nuestras nuevas dependencias de nuestro jardín, cuenta ahora con un grupo de profesionales, como','Atención personalizada de profesionales',NULL,'2011-07-05 01:55:52','2011-07-05 01:55:52',NULL,NULL),(2,'Los delantales y buzos para el Jardín se encargan en BARROS ARANA 514, LOCAL 7, FONO 2251611, Galería Catedral, Concepción.','Delantales y Buzos',NULL,'2011-07-05 01:55:52','2011-07-05 01:55:52',NULL,NULL),(3,'<p>df</p>','df','18595fe80b5c73bd85e778a64075c82a8fed5c53.pdf','2011-07-05 02:12:58','2011-07-05 02:18:30',2,2),(4,'<p>ghgh</p>','gbgh','f7cf60893bfc88362d5a07e5020a1b3d193c9d52.doc','2011-07-05 02:34:35','2011-07-05 02:35:37',2,2);
 /*!40000 ALTER TABLE `trapial_posts` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -448,4 +447,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2011-06-14 10:49:06
+-- Dump completed on 2011-07-05  2:51:03
