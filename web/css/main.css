@@ -311,6 +311,8 @@ h2.title-photo-random {
 img.random {
   margin: 5px 6px;
   border: 4px solid #FFFFFF;
+  width: 200px;
+  height: 150px;
 }
 #NewsWrapper {
   width: 803px;

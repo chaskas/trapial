@@ -8,10 +8,15 @@
     <p class="par">Sin embargo, el dueño decide vender terreno a una inmobiliaria que emplazó un gran edificio…, razón por la cual tuvimos que trasladarnos en el año 2005 a nuestra actual casa en calle Cochrane 870, donde llevamos 6 años y con fuertes miras de expansión en el lugar, ya que tuvimos la oportunidad de ampliar nuestra casa a Cochrane 890 y tener más salas y espacios para nuestros pequeños. Esto nos ha permitido crecer no sólo como Jardín Infantil, sino como empresa integral, ofreciendo otros servicios complementarios al rubro, para nuestra “familia Cantaclariense” esté cada día más felíz de tener un lugar que acoge con amor y vocación a sus generaciones.</p>
   </div>
   <div id="fotos1">
-
+    <table>
+      <tr><td><?php echo image_tag('resenas/1.jpg','class=resena-foto'); ?></td></tr>
+      <tr><td><?php echo image_tag('resenas/2.jpg','class=resena-foto'); ?></td></tr>
+      <tr><td><?php echo image_tag('resenas/3.jpg','class=resena-foto'); ?></td></tr>
+    </table>
   </div>
 </div>
 <span><a href="#top" class="top">Volver Arriba</a></span>
+<div class="cb"></div>
 <a name="peduc"></a><p class="content-title">Proyecto Educativo</p>
 
 <div id="resena-wrapper">

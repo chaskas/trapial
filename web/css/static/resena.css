@@ -8,6 +8,7 @@ body {
 }
 #texto {
   width: 70%;
+  float: left;
 }
 #texto2 {
   width: 70%;
@@ -23,6 +24,10 @@ p.par2 {
 }
 #fotos1 {
   width: 30%;
+  text-align: center;
+}
+.resena-foto {
+  padding:10px;
 }
 #fotos2 {
   width: 140px;

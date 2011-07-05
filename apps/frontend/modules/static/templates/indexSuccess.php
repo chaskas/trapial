@@ -25,7 +25,7 @@
       <?php echo image_tag('jardin.jpg','size=197x133 id=van'); ?>
       <center>
       <h2 class="title-servicios-index-green">
-        <a href="<?php echo url_for('static/jardininfantil'); ?>">Jard&iacuten Infantil</a>
+        <a href="<?php echo url_for('static/jardininfantil'); ?>">Jard&iacute;n Infantil</a>
       </h2>
       </center>
       <p class="text-servicios-index-green">Orientado a la socialización y desarrollo individual de cada pequeño/a</p>
