@@ -5,6 +5,7 @@ TrapialPosts:
   columns:
     post_content:   { type: longtext, notnull: true }
     post_title:     { type: text, notnull: true }
+    post_file:      { type: text }
     #Falta poner contador de comentarios
 
 #TrapialComments:

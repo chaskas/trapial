@@ -7,11 +7,14 @@
  * 
  * @property longtext $post_content
  * @property text $post_title
+ * @property text $post_file
  * 
  * @method longtext     getPostContent()  Returns the current record's "post_content" value
  * @method text         getPostTitle()    Returns the current record's "post_title" value
+ * @method text         getPostFile()     Returns the current record's "post_file" value
  * @method TrapialPosts setPostContent()  Sets the current record's "post_content" value
  * @method TrapialPosts setPostTitle()    Sets the current record's "post_title" value
+ * @method TrapialPosts setPostFile()     Sets the current record's "post_file" value
  * 
  * @package    trapial
  * @subpackage model
@@ -30,6 +33,9 @@ abstract class BaseTrapialPosts extends sfDoctrineRecord
         $this->hasColumn('post_title', 'text', null, array(
              'type' => 'text',
              'notnull' => true,
+             ));
+        $this->hasColumn('post_file', 'text', null, array(
+             'type' => 'text',
              ));
     }
 

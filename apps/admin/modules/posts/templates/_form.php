@@ -19,6 +19,7 @@
 <p><?php echo "<span class=\"News\">".$form['post_title']->renderLabel()."</span>"; ?></p>
 <p><?php echo $form['post_title']->render(array('class'=>'field size1')); ?></p>
 <p><?php echo $form['post_content']->render(array('class'=>'field size1','style'=>'width:948px;')); ?></p>
+<p><?php echo $form['post_file']->render(array('class'=>'field size1')); ?></p>
 <?php echo $form->renderHiddenFields(); ?>
 
 </div>
